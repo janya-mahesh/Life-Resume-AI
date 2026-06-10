@@ -1,4 +1,6 @@
 # app.py — Mentora Backend (Groq + MongoDB)
+import sys, os
+sys.path.insert(0, os.path.dirname(__file__))
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_cors import CORS
