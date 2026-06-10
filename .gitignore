@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+rasa_env/
+
+# Environment variables / secrets
+.env
+backend/.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# User data (contains sensitive info)
+backend/data/users.json
+data/users.json
+
+# Byte-compiled / optimized
+*.py[cod]
+*$py.class
+
+# Large ML model files
+*.tar.gz
+*.h5
+*.pkl
+*.bin

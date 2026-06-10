@@ -1,0 +1,4503 @@
+{
+    "janyam104@gmail.com": {
+        "name": "janya",
+        "password": "janya",
+        "age": "19",
+        "phase": "Undergraduate College",
+        "interests": "software engineering, marketing",
+        "achievements": "high salary package",
+        "hobbies": "i want to start my own business and i want to help people with emotional issues and i love analytics and statistics ",
+        "struggles": "coding",
+        "screen_time_data": [
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 22.022,
+                "timestamp": 1751353678275,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://extensions/",
+                "timeSpent": 4.415,
+                "timestamp": 1751353682691,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6847c266-2cb4-800b-b501-9b12645f935a",
+                "timeSpent": 3.485,
+                "timestamp": 1751353686176,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 3.037,
+                "timestamp": 1751353689213,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6847c266-2cb4-800b-b501-9b12645f935a",
+                "timeSpent": 27.046,
+                "timestamp": 1751353716259,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6847c266-2cb4-800b-b501-9b12645f935a",
+                "timeSpent": 5.958,
+                "timestamp": 1751353722217,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 3.088,
+                "timestamp": 1751353725305,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6847c266-2cb4-800b-b501-9b12645f935a",
+                "timeSpent": 3.752,
+                "timestamp": 1751353729057,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 11.138,
+                "timestamp": 1751353740195,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 7.438,
+                "timestamp": 1751353747633,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6847c266-2cb4-800b-b501-9b12645f935a",
+                "timeSpent": 5.868,
+                "timestamp": 1751353753501,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 3.278,
+                "timestamp": 1751353756779,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 0.943,
+                "timestamp": 1751353757722,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6847c266-2cb4-800b-b501-9b12645f935a",
+                "timeSpent": 6.257,
+                "timestamp": 1751353763979,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 2.198,
+                "timestamp": 1751353766177,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 8.408,
+                "timestamp": 1751353774585,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 1.673,
+                "timestamp": 1751353776258,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/life-resume-ai",
+                "timeSpent": 2.995,
+                "timestamp": 1751353779253,
+                "category": "productive"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 7.359,
+                "timestamp": 1751353786612,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 1.955,
+                "timestamp": 1751353788567,
+                "category": "leisure"
+            },
+            {
+                "url": "https://in.pinterest.com/",
+                "timeSpent": 23.298,
+                "timestamp": 1751353811865,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/life-resume-ai",
+                "timeSpent": 2.663,
+                "timestamp": 1751353814528,
+                "category": "productive"
+            },
+            {
+                "url": "https://in.pinterest.com/",
+                "timeSpent": 21.747,
+                "timestamp": 1751353836275,
+                "category": "leisure"
+            },
+            {
+                "url": "https://in.pinterest.com/",
+                "timeSpent": 17.512,
+                "timestamp": 1751353853787,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 23.948,
+                "timestamp": 1751353877735,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/feed/",
+                "timeSpent": 18.525,
+                "timestamp": 1751353896260,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/feed/",
+                "timeSpent": 10.363,
+                "timestamp": 1751353906623,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 13.191,
+                "timestamp": 1751353919814,
+                "category": "productive"
+            },
+            {
+                "url": "https://www.linkedin.com/feed/",
+                "timeSpent": 16.917,
+                "timestamp": 1751353936731,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 8.752,
+                "timestamp": 1751353945483,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/feed/",
+                "timeSpent": 1.448,
+                "timestamp": 1751353946931,
+                "category": "productive"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 9.322,
+                "timestamp": 1751353956253,
+                "category": "productive"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 22.272,
+                "timestamp": 1751353978525,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 5.643,
+                "timestamp": 1751353984168,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 32.092,
+                "timestamp": 1751354016260,
+                "category": "productive"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 8.857,
+                "timestamp": 1751354025117,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 4.052,
+                "timestamp": 1751354029169,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 5.352,
+                "timestamp": 1751354034521,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 2.516,
+                "timestamp": 1751354037037,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 6.065,
+                "timestamp": 1751354043102,
+                "category": "productive"
+            },
+            {
+                "url": "https://try.stackoverflow.co/get-teams/?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_amer_[legacy]_[revised][cpc]Max_Conversion&_bt=674752693563&_bk=stack+overflow&_bm=p&_bn=g&gad_source=1&gad_campaignid=20576076959&gbraid=0AAAAADlO0L2ddRZahzrKlLJ29r5V-qfPb&gclid=Cj0KCQjwjo7DBhCrARIsACWauSnURD7a-lrFAbYFRpCdCvEfqfsTLLBLX-xAUmmogZ1AMg_nfVux4V8aAhVKEALw_wcB",
+                "timeSpent": 33.164,
+                "timestamp": 1751354076266,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 1.85,
+                "timestamp": 1751607071525,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 19.39,
+                "timestamp": 1751607090915,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 5.069,
+                "timestamp": 1751607095984,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 33.726,
+                "timestamp": 1751607129710,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 26.747,
+                "timestamp": 1751607257052,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 33.256,
+                "timestamp": 1751607290308,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 44.163,
+                "timestamp": 1751691702737,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 15.744,
+                "timestamp": 1751691718481,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 6.88,
+                "timestamp": 1751693503560,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 4.029,
+                "timestamp": 1751693507589,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 4.974,
+                "timestamp": 1751693512563,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 8.692,
+                "timestamp": 1751693521255,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 5.021,
+                "timestamp": 1751693526276,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 2.106,
+                "timestamp": 1751693528382,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 5.955,
+                "timestamp": 1751693534337,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 18.368,
+                "timestamp": 1751693552705,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/life-resume-ai",
+                "timeSpent": 3.092,
+                "timestamp": 1751693555797,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 0.893,
+                "timestamp": 1751693556690,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 2.056,
+                "timestamp": 1751693558746,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 1.768,
+                "timestamp": 1751693560514,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 14.214,
+                "timestamp": 1751693574728,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 13.173,
+                "timestamp": 1751693587901,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 29.025,
+                "timestamp": 1751693616926,
+                "category": "productive"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 11.569,
+                "timestamp": 1751693628495,
+                "category": "productive"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 2.237,
+                "timestamp": 1751693630732,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 8.889,
+                "timestamp": 1751693639621,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 31.102,
+                "timestamp": 1751693670723,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 6.142,
+                "timestamp": 1751693676865,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 0.078,
+                "timestamp": 1751693676943,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 20.753,
+                "timestamp": 1751693697696,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 3.917,
+                "timestamp": 1751693701613,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 2.127,
+                "timestamp": 1751693703740,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 2.821,
+                "timestamp": 1751693706561,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 1.32,
+                "timestamp": 1751693707881,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 13.667,
+                "timestamp": 1751693721548,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 15.143,
+                "timestamp": 1751693736691,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 5.017,
+                "timestamp": 1751820672889,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 5.874,
+                "timestamp": 1751820678763,
+                "category": "productive"
+            },
+            {
+                "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories",
+                "timeSpent": 10.132,
+                "timestamp": 1751820688895,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 4.324,
+                "timestamp": 1751820693219,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories",
+                "timeSpent": 9.629,
+                "timestamp": 1751820702848,
+                "category": "productive"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 3.788,
+                "timestamp": 1751820706636,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories",
+                "timeSpent": 8.317,
+                "timestamp": 1751820714953,
+                "category": "productive"
+            },
+            {
+                "url": "https://www.youtube.com/",
+                "timeSpent": 0.744,
+                "timestamp": 1751820715697,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=vg7qbp_KIcA",
+                "timeSpent": 9.021,
+                "timestamp": 1751820724718,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 5.508,
+                "timestamp": 1751820730226,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 6.829,
+                "timestamp": 1751820737055,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/dashboard",
+                "timeSpent": 3.682,
+                "timestamp": 1751820740737,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 3.435,
+                "timestamp": 1751820744172,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=vg7qbp_KIcA",
+                "timeSpent": 2.468,
+                "timestamp": 1751820746640,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 29.062,
+                "timestamp": 1751820775702,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 16.122,
+                "timestamp": 1751821193541,
+                "category": "productive"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=gj7BRMuB-n4",
+                "timeSpent": 3.933,
+                "timestamp": 1751821197474,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 8.017,
+                "timestamp": 1751821205491,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=gj7BRMuB-n4",
+                "timeSpent": 23.93,
+                "timestamp": 1751821229421,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 1.912,
+                "timestamp": 1751821592765,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 6.66,
+                "timestamp": 1751821599425,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/explore",
+                "timeSpent": 3.933,
+                "timestamp": 1751821603358,
+                "category": "productive"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=n69_vV6NBEU",
+                "timeSpent": 29.533,
+                "timestamp": 1751821632891,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=n69_vV6NBEU",
+                "timeSpent": 7.274,
+                "timestamp": 1751821640165,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 16.28,
+                "timestamp": 1751821656445,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/Anuken/Mindustry/blob/master/android/build.gradle",
+                "timeSpent": 36.436,
+                "timestamp": 1751821692881,
+                "category": "productive"
+            },
+            {
+                "url": "https://github.com/Anuken/Mindustry/blob/master/android/build.gradle",
+                "timeSpent": 29.69,
+                "timestamp": 1751821722571,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 23.464,
+                "timestamp": 1751821746035,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 6.843,
+                "timestamp": 1751821752878,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 20.58,
+                "timestamp": 1751822304333,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=n69_vV6NBEU",
+                "timeSpent": 10.521,
+                "timestamp": 1751822314854,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 16.981,
+                "timestamp": 1751822891258,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=bBMCgni2lKw",
+                "timeSpent": 43.031,
+                "timestamp": 1751822934289,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/life-resume-ai",
+                "timeSpent": 10.205,
+                "timestamp": 1751871471846,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 24.069,
+                "timestamp": 1751871495916,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 25.724,
+                "timestamp": 1751871521640,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 23.069,
+                "timestamp": 1751877207874,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/life-resume-ai",
+                "timeSpent": 1.348,
+                "timestamp": 1751877209222,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 6.763,
+                "timestamp": 1751877215985,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=yWn98l8M3oI",
+                "timeSpent": 24.818,
+                "timestamp": 1751877240803,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 4.015,
+                "timestamp": 1751877244818,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 18.96,
+                "timestamp": 1751877954568,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/life-resume-ai",
+                "timeSpent": 1.215,
+                "timestamp": 1751877955783,
+                "category": "productive"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 6.993,
+                "timestamp": 1751877962776,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.youtube.com/watch?v=yWn98l8M3oI",
+                "timeSpent": 2.236,
+                "timestamp": 1751877965012,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/analysis/janyam104@gmail.com",
+                "timeSpent": 4.372,
+                "timestamp": 1751877969384,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 26.223,
+                "timestamp": 1751877995607,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 1.584,
+                "timestamp": 1752500049058,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 31.433,
+                "timestamp": 1752500080491,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/?model=auto",
+                "timeSpent": 60.005,
+                "timestamp": 1752564679946,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 21.009,
+                "timestamp": 1752565114425,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/resume/janyam104@gmail.com",
+                "timeSpent": 38.991,
+                "timestamp": 1752565153416,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 42.992,
+                "timestamp": 1752565196408,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 17.012,
+                "timestamp": 1752565213420,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 52.307,
+                "timestamp": 1752639527206,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 7.7,
+                "timestamp": 1752639534906,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 25.601,
+                "timestamp": 1752639873670,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 0.78,
+                "timestamp": 1752639874450,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 33.632,
+                "timestamp": 1752639908082,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 3.501,
+                "timestamp": 1752640221049,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 2.78,
+                "timestamp": 1752640223829,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 20.875,
+                "timestamp": 1752640244704,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 9.205,
+                "timestamp": 1752640253909,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 24.09,
+                "timestamp": 1752640277999,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 3.202,
+                "timestamp": 1752640340900,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 1.253,
+                "timestamp": 1752640342154,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 13.488,
+                "timestamp": 1752640355642,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/edit-resume/janyam104@gmail.com",
+                "timeSpent": 12.582,
+                "timestamp": 1752640368224,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.546,
+                "timestamp": 1752640372770,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 19.001,
+                "timestamp": 1752640391771,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.921,
+                "timestamp": 1752640397692,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.75,
+                "timestamp": 1752640402442,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 19.626,
+                "timestamp": 1752640422068,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 11.194,
+                "timestamp": 1752640433262,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 13.518,
+                "timestamp": 1752640446780,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 10.914,
+                "timestamp": 1752640457694,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 60.155,
+                "timestamp": 1752640972632,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 38.187,
+                "timestamp": 1752641010819,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 21.665,
+                "timestamp": 1752641032484,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/career-suggestions/janyam104@gmail.com",
+                "timeSpent": 45.83,
+                "timestamp": 1752641343684,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 1.231,
+                "timestamp": 1752641344915,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 12.949,
+                "timestamp": 1752641357864,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 60.006,
+                "timestamp": 1752650922389,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 34.913,
+                "timestamp": 1752651147763,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 25.087,
+                "timestamp": 1752651172850,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 50.518,
+                "timestamp": 1752651290077,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 9.483,
+                "timestamp": 1752651299561,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 20.521,
+                "timestamp": 1752652460664,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 60.007,
+                "timestamp": 1752659221957,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.slidescarnival.com/",
+                "timeSpent": 2.505,
+                "timestamp": 1752685944757,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.349,
+                "timestamp": 1752685949106,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.slidescarnival.com/template/animated-app-pitch-deck/22970",
+                "timeSpent": 53.152,
+                "timestamp": 1752686002259,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.slidescarnival.com/tag/pitch-deck/page/2",
+                "timeSpent": 33.08,
+                "timestamp": 1752686035339,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 2.941,
+                "timestamp": 1752686038280,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.slidescarnival.com/?q=Zane+presentation",
+                "timeSpent": 15.489,
+                "timestamp": 1752686053769,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 7.481,
+                "timestamp": 1752686061250,
+                "category": "leisure"
+            },
+            {
+                "url": "",
+                "timeSpent": 1.007,
+                "timestamp": 1752686062257,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/elegant-bachelor-thesis#search-Minimalist&position-11&results-4477",
+                "timeSpent": 54.636,
+                "timestamp": 1752686116893,
+                "category": "leisure"
+            },
+            {
+                "url": "",
+                "timeSpent": 3.359,
+                "timestamp": 1752686120252,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/elegant-bachelor-thesis#search-Minimalist&position-11&results-4477",
+                "timeSpent": 2.016,
+                "timestamp": 1752686122268,
+                "category": "leisure"
+            },
+            {
+                "url": "https://id.freepik.com/v2/log-in?client_id=slidesgo&lang=en",
+                "timeSpent": 25.387,
+                "timestamp": 1752686147655,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/elegant-bachelor-thesis#search-Minimalist&position-12&results-4476",
+                "timeSpent": 34.602,
+                "timestamp": 1752686182257,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/elegant-black-white-thesis-defense#search-Minimalist&position-31&results-4476",
+                "timeSpent": 60.009,
+                "timestamp": 1752686320746,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/elegant-black-white-thesis-defense#search-Minimalist&position-31&results-4476",
+                "timeSpent": 6.695,
+                "timestamp": 1752686327441,
+                "category": "leisure"
+            },
+            {
+                "url": "about:blank",
+                "timeSpent": 2.157,
+                "timestamp": 1752686329598,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/elegant-black-white-thesis-defense#search-Minimalist&position-31&results-4476",
+                "timeSpent": 5.844,
+                "timestamp": 1752686335442,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.canva.com/design/DAF94egMzBg/_m1OYD1vpCM7nPMmxmnztQ/view?utm_content=DAF94egMzBg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+                "timeSpent": 11.914,
+                "timestamp": 1752686347356,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.canva.com/design/DAGtWVBNk-8/msDSLgJkEf1aWyj-UkfcXg/edit",
+                "timeSpent": 34.049,
+                "timestamp": 1752686381405,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/minimalist-thesis-defense",
+                "timeSpent": 19.371,
+                "timestamp": 1752686496384,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.995,
+                "timestamp": 1752686501379,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidesgo.com/theme/professional-thesis-defense",
+                "timeSpent": 3.863,
+                "timestamp": 1752686505242,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.782,
+                "timestamp": 1752686510024,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.canva.com/",
+                "timeSpent": 10.646,
+                "timestamp": 1752686520670,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.761,
+                "timestamp": 1752686526431,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.canva.com/presentations/templates/minimal-white-gray/",
+                "timeSpent": 6.349,
+                "timestamp": 1752686532780,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.237,
+                "timestamp": 1752686537017,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 3.194,
+                "timestamp": 1752686540211,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.slidescarnival.com/mery-free-presentation-template/13175",
+                "timeSpent": 8.694,
+                "timestamp": 1752686548905,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.182,
+                "timestamp": 1752686554087,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.slidescarnival.com/zane-free-presentation-template/14768",
+                "timeSpent": 3.809,
+                "timestamp": 1752686557896,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.651,
+                "timestamp": 1752686563547,
+                "category": "leisure"
+            },
+            {
+                "url": "https://slidenest.com/templates",
+                "timeSpent": 5.218,
+                "timestamp": 1752686568765,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 28.248,
+                "timestamp": 1752686597013,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 5.205,
+                "timestamp": 1752732612117,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 14.066,
+                "timestamp": 1752732626183,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 9.798,
+                "timestamp": 1752732635981,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 2.019,
+                "timestamp": 1752732638000,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 0.881,
+                "timestamp": 1752732638881,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 0.816,
+                "timestamp": 1752732639697,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 27.219,
+                "timestamp": 1752732666917,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 21.076,
+                "timestamp": 1752732687993,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 10.126,
+                "timestamp": 1752732698119,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 14.617,
+                "timestamp": 1752732712736,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 14.182,
+                "timestamp": 1752732726918,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 22.273,
+                "timestamp": 1752732749191,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 13.418,
+                "timestamp": 1752732762609,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 24.314,
+                "timestamp": 1752732786923,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 24.684,
+                "timestamp": 1752733190288,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 11.013,
+                "timestamp": 1752733201301,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 11.155,
+                "timestamp": 1752733212456,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 13.149,
+                "timestamp": 1752733225605,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 26.101,
+                "timestamp": 1752733623778,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 8.541,
+                "timestamp": 1752733632319,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 6.034,
+                "timestamp": 1752733638353,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.675,
+                "timestamp": 1752733646028,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 8.405,
+                "timestamp": 1752733654433,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 3.249,
+                "timestamp": 1752733657682,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 10.893,
+                "timestamp": 1752733668575,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 8.564,
+                "timestamp": 1752733677139,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 15.776,
+                "timestamp": 1752733692915,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 24.763,
+                "timestamp": 1752733717678,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 10.621,
+                "timestamp": 1752733728299,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 2.314,
+                "timestamp": 1752733730613,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 24.266,
+                "timestamp": 1752733754879,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 12.022,
+                "timestamp": 1752733766902,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 10.782,
+                "timestamp": 1752733777684,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 16.503,
+                "timestamp": 1752733894040,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.277,
+                "timestamp": 1752733901318,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 13.352,
+                "timestamp": 1752733914670,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 4.13,
+                "timestamp": 1752733918800,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 3.161,
+                "timestamp": 1752733921961,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 13.333,
+                "timestamp": 1752733935294,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 10.814,
+                "timestamp": 1752733946108,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.782,
+                "timestamp": 1752733951890,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 11.514,
+                "timestamp": 1752733963404,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 15.397,
+                "timestamp": 1752733978801,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 20.732,
+                "timestamp": 1752734153854,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 8.167,
+                "timestamp": 1752734162022,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 0.74,
+                "timestamp": 1752734162762,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 1.314,
+                "timestamp": 1752734164077,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 2.005,
+                "timestamp": 1752734166082,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 4.121,
+                "timestamp": 1752734170203,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 18.489,
+                "timestamp": 1752734188692,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 6.939,
+                "timestamp": 1752734315232,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 28.604,
+                "timestamp": 1752734343836,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.966,
+                "timestamp": 1752734351802,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 8.381,
+                "timestamp": 1752734360183,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.92,
+                "timestamp": 1752734368103,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 0.2,
+                "timestamp": 1752734368303,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.38,
+                "timestamp": 1752734952349,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.785,
+                "timestamp": 1752734957134,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 13.076,
+                "timestamp": 1752734970210,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.858,
+                "timestamp": 1752734975068,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 17.111,
+                "timestamp": 1752734992179,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 12.804,
+                "timestamp": 1752735004983,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 8.878,
+                "timestamp": 1752735244861,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 24.362,
+                "timestamp": 1752735269223,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 2.136,
+                "timestamp": 1752735271359,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.985,
+                "timestamp": 1752735277344,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 3.412,
+                "timestamp": 1752735280756,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 7.722,
+                "timestamp": 1752735288478,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.187,
+                "timestamp": 1752735295665,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 0.319,
+                "timestamp": 1752735295984,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.884,
+                "timestamp": 1752735300868,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.446,
+                "timestamp": 1752735308314,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 14.16,
+                "timestamp": 1752735322474,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 12.051,
+                "timestamp": 1752735334525,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.898,
+                "timestamp": 1752735339423,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 3.861,
+                "timestamp": 1752735343284,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 12.701,
+                "timestamp": 1752735355985,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 12.957,
+                "timestamp": 1752735532227,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 11.252,
+                "timestamp": 1752735543479,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 7.482,
+                "timestamp": 1752735550961,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 8.298,
+                "timestamp": 1752735559259,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 8.654,
+                "timestamp": 1752735567913,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 9.612,
+                "timestamp": 1752735577525,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 1.744,
+                "timestamp": 1752735579269,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 6.854,
+                "timestamp": 1752735686014,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 11.102,
+                "timestamp": 1752735697116,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 9.169,
+                "timestamp": 1752735706285,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 7.61,
+                "timestamp": 1752735713895,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 5.812,
+                "timestamp": 1752735719707,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 5.866,
+                "timestamp": 1752735725573,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 4.359,
+                "timestamp": 1752735729932,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 5.538,
+                "timestamp": 1752735735470,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687603af-858c-800b-bc45-5dbb65d7711b",
+                "timeSpent": 3.695,
+                "timestamp": 1752735739165,
+                "category": "leisure"
+            },
+            {
+                "url": "https://one.google.com/ai-student?utm_source=gemini&utm_medium=web&utm_campaign=gemini_students_landing_page&_gl=1*1iji93e*_gcl_au*NDkxMDQ0OTQ4LjE3NTI3NjY0NDc.*_ga*MzQ2MzQ2NzIzLjE3NTI3NjY0NDc.*_ga_WC57KJ50ZZ*czE3NTI3NjY0NDckbzEkZzAkdDE3NTI3NjY0NDckajYwJGwwJGgw&g1_landing_page=75",
+                "timeSpent": 39.682,
+                "timestamp": 1752766470654,
+                "category": "leisure"
+            },
+            {
+                "url": "https://services.sheerid.com/verify/67c8c14f5f17a83b745e3f82/?verificationId=687917f42bdf5123e1f29c6f",
+                "timeSpent": 20.315,
+                "timestamp": 1752766490969,
+                "category": "leisure"
+            },
+            {
+                "url": "https://services.sheerid.com/rest/v2/verification/sso/oidc_google?state=68791861f0682920d1b63e51&code=4%2F0AVMBsJhkb6B3PK3NojOhxeuSCZy3af8AG-r5QhVHtA4CN3eck-ORv_Rh0juL7oJg_fs22Q&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=4&hd=pesu.pes.edu&prompt=consent",
+                "timeSpent": 30.928,
+                "timestamp": 1752766591455,
+                "category": "leisure"
+            },
+            {
+                "url": "https://one.google.com/ai-student?g1_landing_page=75",
+                "timeSpent": 29.074,
+                "timestamp": 1752766620529,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 64.24,
+                "timestamp": 1753077508362,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mynetwork/invite-connect/connections/",
+                "timeSpent": 45.335,
+                "timestamp": 1753078217693,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mynetwork/invite-connect/connections/",
+                "timeSpent": 4.003,
+                "timestamp": 1753078221696,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/feed/?trk=nav_logo",
+                "timeSpent": 26.404,
+                "timestamp": 1753078248100,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/auth/login",
+                "timeSpent": 23.229,
+                "timestamp": 1753078271329,
+                "category": "leisure"
+            },
+            {
+                "url": "https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type&client_id=539603982008.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.hackerrank.com%2Fhackers%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&state=d219c24a3ef7243df9bd614a3c7658d0c4338cc4fc5d4fa3&service=lso&o2v=1&flowName=GeneralOAuthFlow",
+                "timeSpent": 6.366,
+                "timestamp": 1753078277696,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 43.129,
+                "timestamp": 1753078320825,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/",
+                "timeSpent": 18.605,
+                "timestamp": 1753078339430,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/",
+                "timeSpent": 31.937,
+                "timestamp": 1753078371367,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/?model=auto",
+                "timeSpent": 26.327,
+                "timestamp": 1753078397694,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mypreferences/d/categories/account",
+                "timeSpent": 14.837,
+                "timestamp": 1753078461708,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 0.713,
+                "timestamp": 1753078462421,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 6.803,
+                "timestamp": 1753078469224,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mypreferences/d/categories/profile-visibility",
+                "timeSpent": 5.793,
+                "timestamp": 1753078475017,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 2.867,
+                "timestamp": 1753078477884,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mypreferences/d/categories/profile-visibility",
+                "timeSpent": 11.727,
+                "timestamp": 1753078489611,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 2.46,
+                "timestamp": 1753078492071,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mypreferences/d/categories/profile-visibility",
+                "timeSpent": 2.931,
+                "timestamp": 1753078495002,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mypreferences/d/settings/notify-network-for-updates",
+                "timeSpent": 59.997,
+                "timestamp": 1753078554999,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mypreferences/d/settings/notify-network-for-updates",
+                "timeSpent": 2.039,
+                "timestamp": 1753078557038,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 6.755,
+                "timestamp": 1753078563793,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/",
+                "timeSpent": 18.897,
+                "timestamp": 1753078582690,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 5.293,
+                "timestamp": 1753078587983,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 7.657,
+                "timestamp": 1753078595640,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 14.192,
+                "timestamp": 1753078609832,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 0.688,
+                "timestamp": 1753078610520,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 2.876,
+                "timestamp": 1753078613396,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 1.608,
+                "timestamp": 1753078615004,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 15.267,
+                "timestamp": 1753078630422,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 2.089,
+                "timestamp": 1753078632511,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 2.941,
+                "timestamp": 1753078635452,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 1.001,
+                "timestamp": 1753078636453,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 2.203,
+                "timestamp": 1753078638656,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 6.144,
+                "timestamp": 1753078644800,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 3.086,
+                "timestamp": 1753078647886,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 10.785,
+                "timestamp": 1753078658671,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 8.327,
+                "timestamp": 1753078666998,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 5.476,
+                "timestamp": 1753078672474,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 2.539,
+                "timestamp": 1753078675013,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 9.695,
+                "timestamp": 1753078684708,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 3.928,
+                "timestamp": 1753078688636,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 20.391,
+                "timestamp": 1753078709027,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 9.149,
+                "timestamp": 1753078718176,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 16.835,
+                "timestamp": 1753078735011,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 2.831,
+                "timestamp": 1753078737842,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 10.574,
+                "timestamp": 1753078748416,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 1.356,
+                "timestamp": 1753078749772,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 4.541,
+                "timestamp": 1753078754313,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 24.566,
+                "timestamp": 1753078778879,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 2.644,
+                "timestamp": 1753078781523,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/in/janya-mahesh-a4a813323/edit/forms/certification/new/?profileFormEntryPoint=PROFILE_COMPLETION_HUB",
+                "timeSpent": 13.486,
+                "timestamp": 1753078795009,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.hackerrank.com/certificates/b1d6054f4646",
+                "timeSpent": 1.242,
+                "timestamp": 1753078901692,
+                "category": "leisure"
+            },
+            {
+                "url": "file:///C:/Users/Janya%20Mahesh/Downloads/problem_solving_basic%20certificate.pdf",
+                "timeSpent": 0.867,
+                "timestamp": 1753078902559,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 4.28,
+                "timestamp": 1753078906839,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/feed/",
+                "timeSpent": 30.004,
+                "timestamp": 1753078936843,
+                "category": "leisure"
+            },
+            {
+                "url": "https://www.linkedin.com/mynetwork/invite-connect/connections/",
+                "timeSpent": 49.324,
+                "timestamp": 1753078986168,
+                "category": "leisure"
+            },
+            {
+                "url": "file:///C:/Users/Janya%20Mahesh/Downloads/problem_solving_basic%20certificate.pdf",
+                "timeSpent": 1.719,
+                "timestamp": 1753078987887,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/687dda77-5a70-800b-b3c8-d9ac53d65adb",
+                "timeSpent": 8.957,
+                "timestamp": 1753078996844,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 60.001,
+                "timestamp": 1754460789001,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/4/#inbox/FMfcgzQbgcTvqCJJJxMkJQXFDGjWkqKh",
+                "timeSpent": 5.256,
+                "timestamp": 1754549699225,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 35.797,
+                "timestamp": 1754549735022,
+                "category": "leisure"
+            },
+            {
+                "url": "",
+                "timeSpent": 22.313,
+                "timestamp": 1754642344933,
+                "category": "leisure"
+            },
+            {
+                "url": "",
+                "timeSpent": 1.836,
+                "timestamp": 1754642346769,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQbgcWGwsmwBtfDSrmRLSbbjfML",
+                "timeSpent": 0.864,
+                "timestamp": 1754642347633,
+                "category": "leisure"
+            },
+            {
+                "url": "",
+                "timeSpent": 1.157,
+                "timestamp": 1754642348790,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQbgcWGwsmwBtfDSrmRLSbbjfML",
+                "timeSpent": 1.711,
+                "timestamp": 1754642350501,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 1.904,
+                "timestamp": 1754642352405,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/onboarding/amanda@gmail.com",
+                "timeSpent": 56.449,
+                "timestamp": 1757144229608,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6866522f-ff68-800b-8359-cc6f9a08bdac",
+                "timeSpent": 60,
+                "timestamp": 1757145763829,
+                "category": "leisure"
+            },
+            {
+                "url": "http://127.0.0.1:5000/dashboard/janyam104@gmail.com",
+                "timeSpent": 60.01,
+                "timestamp": 1757148508114,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 3.924,
+                "timestamp": 1780252525939,
+                "category": "leisure"
+            },
+            {
+                "url": "https://devpost.com/submit-to/29711-google-cloud-rapid-agent-hackathon/manage/submissions/1037143/additional-info/edit",
+                "timeSpent": 1.631,
+                "timestamp": 1780252527570,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.cloud.google.com/sdk/docs/install-sdk",
+                "timeSpent": 9.966,
+                "timestamp": 1780252537536,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.794,
+                "timestamp": 1780252540330,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.cloud.google.com/sdk/docs/install-sdk",
+                "timeSpent": 23.237,
+                "timestamp": 1780252563567,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/freetrial/signup/tos?facet_utm_source=yahoo&facet_utm_campaign=(organic)&facet_utm_medium=organic&facet_url=https:%2F%2Fdocs.cloud.google.com%2Fsdk%2Fdocs%2Finstall-sdk&pli=1&authuser=1",
+                "timeSpent": 18.446,
+                "timestamp": 1780252582013,
+                "category": "leisure"
+            },
+            {
+                "url": "https://chatgpt.com/c/6a1dc3d3-dd3c-8322-b8be-40079e524c7a",
+                "timeSpent": 58.624,
+                "timestamp": 1780335616174,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.384,
+                "timestamp": 1780335617558,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.cloud.google.com/sdk/docs/install-sdk",
+                "timeSpent": 20.579,
+                "timestamp": 1780388037002,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/freetrial/signup/billing/IN?facet_utm_source=yahoo&facet_utm_campaign=(organic)&facet_utm_medium=organic&facet_url=https:%2F%2Fdocs.cloud.google.com%2Fsdk%2Fdocs%2Finstall-sdk&pli=1&authuser=1",
+                "timeSpent": 7.502,
+                "timestamp": 1780388044504,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/1/#inbox",
+                "timeSpent": 2.821,
+                "timestamp": 1780388047325,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/freetrial/signup/billing/IN?facet_utm_source=yahoo&facet_utm_campaign=(organic)&facet_utm_medium=organic&facet_url=https:%2F%2Fdocs.cloud.google.com%2Fsdk%2Fdocs%2Finstall-sdk&pli=1&authuser=1",
+                "timeSpent": 29.107,
+                "timestamp": 1780388076432,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 9.331,
+                "timestamp": 1780388146750,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.cloud.google.com/sdk/docs/install-sdk",
+                "timeSpent": 0.796,
+                "timestamp": 1780388147546,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/welcome/new?project=project-e84994c8-7576-4def-907&authuser=1&facet_url=https:%2F%2Fdocs.cloud.google.com%2Fsdk%2Fdocs%2Finstall-sdk",
+                "timeSpent": 13.585,
+                "timestamp": 1780388161131,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/welcome/new?project=project-e84994c8-7576-4def-907&authuser=1&facet_url=https:%2F%2Fdocs.cloud.google.com%2Fsdk%2Fdocs%2Finstall-sdk",
+                "timeSpent": 0,
+                "timestamp": 1780388161131,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 5.8,
+                "timestamp": 1780388166931,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 0.901,
+                "timestamp": 1780388167832,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/enable-mfa?redirectTo=%2F",
+                "timeSpent": 34.786,
+                "timestamp": 1780388202618,
+                "category": "leisure"
+            },
+            {
+                "url": "https://myaccount.google.com/u/1/two-step-verification/authenticator?rapt=AEjHL4Pg9G9bIlVv2lpZ3z-GviK3emtn3tNg_yutZ-goWm1HvWSY9wWkDArtJvQd6zmZHSYpKtd6xETtotTQxweTVBaZ3feB3rLH_yi1rwB6pDsDkLnOHI4",
+                "timeSpent": 25.213,
+                "timestamp": 1780388227831,
+                "category": "leisure"
+            },
+            {
+                "url": "https://myaccount.google.com/u/1/signinoptions/twosv?rapt=AEjHL4Pg9G9bIlVv2lpZ3z-GviK3emtn3tNg_yutZ-goWm1HvWSY9wWkDArtJvQd6zmZHSYpKtd6xETtotTQxweTVBaZ3feB3rLH_yi1rwB6pDsDkLnOHI4",
+                "timeSpent": 41.83,
+                "timestamp": 1780388269661,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/welcome/new?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 18.185,
+                "timestamp": 1780388287846,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/welcome/new?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 7.21,
+                "timestamp": 1780388295056,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.872,
+                "timestamp": 1780388297928,
+                "category": "leisure"
+            },
+            {
+                "url": "https://myaccount.google.com/u/1/signinoptions/twosv?rapt=AEjHL4Pg9G9bIlVv2lpZ3z-GviK3emtn3tNg_yutZ-goWm1HvWSY9wWkDArtJvQd6zmZHSYpKtd6xETtotTQxweTVBaZ3feB3rLH_yi1rwB6pDsDkLnOHI4",
+                "timeSpent": 1.173,
+                "timestamp": 1780388299101,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/apis/dashboard?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 26.85,
+                "timestamp": 1780388325951,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 4.383,
+                "timestamp": 1780388330334,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/apis/library?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 9.785,
+                "timestamp": 1780388340119,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.525,
+                "timestamp": 1780388341644,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/apis/library/browse?authuser=1&project=project-e84994c8-7576-4def-907&q=Vertex%20AI",
+                "timeSpent": 6.193,
+                "timestamp": 1780388347837,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/apis/library/retail.googleapis.com?authuser=1&project=project-e84994c8-7576-4def-907&flow=gcp",
+                "timeSpent": 20.073,
+                "timestamp": 1780388367910,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.842,
+                "timestamp": 1780388369752,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/apis/library/browse?authuser=1&project=project-e84994c8-7576-4def-907&q=Vertex%20AI",
+                "timeSpent": 14.191,
+                "timestamp": 1780388383943,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.063,
+                "timestamp": 1780388386006,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/billing?authuser=1",
+                "timeSpent": 21.825,
+                "timestamp": 1780388407831,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/billing/01B1DE-5A9812-B68131/payment?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 60.001,
+                "timestamp": 1780388467832,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/billing/01B1DE-5A9812-B68131/payment?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 53.976,
+                "timestamp": 1780388521808,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 6.027,
+                "timestamp": 1780388527835,
+                "category": "leisure"
+            },
+            {
+                "url": "https://docs.cloud.google.com/sdk/docs/install-sdk",
+                "timeSpent": 1.044,
+                "timestamp": 1780465330848,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/welcome/new?project=project-e84994c8-7576-4def-907&authuser=1&facet_url=https:%2F%2Fdocs.cloud.google.com%2Fsdk%2Fdocs%2Finstall-sdk",
+                "timeSpent": 0.984,
+                "timestamp": 1780465331832,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/1/#inbox",
+                "timeSpent": 1.056,
+                "timestamp": 1780465332888,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/billing/01B1DE-5A9812-B68131/payment?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 0.634,
+                "timestamp": 1780465333522,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.44,
+                "timestamp": 1780465334962,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 2.244,
+                "timestamp": 1780465337206,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 7.134,
+                "timestamp": 1780465344340,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/prompts/new_chat",
+                "timeSpent": 13.05,
+                "timestamp": 1780465357390,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.33,
+                "timestamp": 1780465358720,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys?project=gen-lang-client-0646703411&pli=1",
+                "timeSpent": 14.334,
+                "timestamp": 1780465373054,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.319,
+                "timestamp": 1780465375373,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys?project=gen-lang-client-0646703411&pli=1",
+                "timeSpent": 5.555,
+                "timestamp": 1780465380928,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.168,
+                "timestamp": 1780465383096,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys?project=gen-lang-client-0646703411&pli=1",
+                "timeSpent": 6.712,
+                "timestamp": 1780465389808,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys?project=gen-lang-client-0646703411&pli=1",
+                "timeSpent": 6.041,
+                "timestamp": 1780465395849,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 6.883,
+                "timestamp": 1780465402732,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys?project=gen-lang-client-0952722904&pli=1",
+                "timeSpent": 47.069,
+                "timestamp": 1780465449801,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys?project=gen-lang-client-0952722904&pli=1",
+                "timeSpent": 11.948,
+                "timestamp": 1780465461749,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.786,
+                "timestamp": 1780465464535,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/prompts/new_chat",
+                "timeSpent": 14.562,
+                "timestamp": 1780465479097,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 4.8,
+                "timestamp": 1780465483897,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/prompts/new_chat",
+                "timeSpent": 16.371,
+                "timestamp": 1780465500268,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 9.528,
+                "timestamp": 1780465509796,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 2.61,
+                "timestamp": 1780465512805,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 7.258,
+                "timestamp": 1780465520063,
+                "category": "leisure"
+            },
+            {
+                "url": "https://app.arize.com/auth/login?redirect_uri=/",
+                "timeSpent": 1.554,
+                "timestamp": 1780465521617,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 3.709,
+                "timestamp": 1780465525326,
+                "category": "leisure"
+            },
+            {
+                "url": "https://app.arize.com/organizations/QWNjb3VudE9yZ2FuaXphdGlvbjo0MzU1OTpHaXVF/spaces/U3BhY2U6NDU5OTM6enhMRw==/home?newSignUp=1",
+                "timeSpent": 21.004,
+                "timestamp": 1780465546330,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.238,
+                "timestamp": 1780465548568,
+                "category": "leisure"
+            },
+            {
+                "url": "https://app.arize.com/organizations/QWNjb3VudE9yZ2FuaXphdGlvbjo0MzU1OTpHaXVF/spaces/U3BhY2U6NDU5OTM6enhMRw==/home?newSignUp=1",
+                "timeSpent": 21.241,
+                "timestamp": 1780465569809,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 24.358,
+                "timestamp": 1780465715362,
+                "category": "leisure"
+            },
+            {
+                "url": "https://render.com/",
+                "timeSpent": 6.712,
+                "timestamp": 1780465759712,
+                "category": "leisure"
+            },
+            {
+                "url": "https://app.arize.com/organizations/QWNjb3VudE9yZ2FuaXphdGlvbjo0MzU1OTpHaXVF/spaces/U3BhY2U6NDU5OTM6enhMRw==/home",
+                "timeSpent": 0.546,
+                "timestamp": 1780465760258,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/prompts/new_chat",
+                "timeSpent": 2.817,
+                "timestamp": 1780465763075,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.66,
+                "timestamp": 1780465765735,
+                "category": "leisure"
+            },
+            {
+                "url": "https://dashboard.render.com/verify-email",
+                "timeSpent": 25.664,
+                "timestamp": 1780465791399,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/0/#inbox",
+                "timeSpent": 9.514,
+                "timestamp": 1780465800913,
+                "category": "leisure"
+            },
+            {
+                "url": "https://mail.google.com/mail/u/1/",
+                "timeSpent": 11.644,
+                "timestamp": 1780465812557,
+                "category": "leisure"
+            },
+            {
+                "url": "",
+                "timeSpent": 0.448,
+                "timestamp": 1780465813005,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 8.651,
+                "timestamp": 1780465884938,
+                "category": "leisure"
+            },
+            {
+                "url": "chrome://newtab/",
+                "timeSpent": 2.493,
+                "timestamp": 1780465887431,
+                "category": "leisure"
+            },
+            {
+                "url": "https://dashboard.render.com/verify-email",
+                "timeSpent": 1.643,
+                "timestamp": 1780465889074,
+                "category": "leisure"
+            },
+            {
+                "url": "https://dashboard.render.com/",
+                "timeSpent": 0.932,
+                "timestamp": 1780465890006,
+                "category": "leisure"
+            },
+            {
+                "url": "https://vercel.com/janya-maheshs-projects",
+                "timeSpent": 12.808,
+                "timestamp": 1780465902814,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 9.537,
+                "timestamp": 1780465912351,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/new",
+                "timeSpent": 9.733,
+                "timestamp": 1780465922084,
+                "category": "productive"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 2.588,
+                "timestamp": 1780465924672,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/new",
+                "timeSpent": 3.732,
+                "timestamp": 1780465928404,
+                "category": "productive"
+            },
+            {
+                "url": "https://github.com/new",
+                "timeSpent": 1.616,
+                "timestamp": 1780465930020,
+                "category": "productive"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.957,
+                "timestamp": 1780465931977,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/new",
+                "timeSpent": 16.487,
+                "timestamp": 1780465948464,
+                "category": "productive"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 3.638,
+                "timestamp": 1780465952102,
+                "category": "leisure"
+            },
+            {
+                "url": "https://github.com/janya-mahesh/AgentAudit",
+                "timeSpent": 19.513,
+                "timestamp": 1780465971615,
+                "category": "productive"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 16.796,
+                "timestamp": 1780465988411,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys",
+                "timeSpent": 46.745,
+                "timestamp": 1780467825808,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 6.583,
+                "timestamp": 1780467832391,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/api-keys",
+                "timeSpent": 6.691,
+                "timestamp": 1780467839082,
+                "category": "leisure"
+            },
+            {
+                "url": "https://aistudio.google.com/u/1/projects",
+                "timeSpent": 48.195,
+                "timestamp": 1780468667197,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 11.812,
+                "timestamp": 1780468679009,
+                "category": "leisure"
+            },
+            {
+                "url": "https://claude.ai/chat/6bbe450e-bac8-4d83-a2b8-09dadb1f1ea2",
+                "timeSpent": 1.223,
+                "timestamp": 1780468680232,
+                "category": "leisure"
+            },
+            {
+                "url": "https://console.cloud.google.com/agent-platform/studio/settings/api-keys?authuser=1&project=project-e84994c8-7576-4def-907",
+                "timeSpent": 58.777,
+                "timestamp": 1780468739009,
+                "category": "leisure"
+            }
+        ],
+        "keywords": [
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-15 23:06:21"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-15 23:06:33"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-15 23:08:03"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 09:48:24"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 09:54:49"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 09:54:56"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 09:59:21"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 09:59:27"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 10:01:05"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-16 10:03:25"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 10:12:11"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-16 10:12:45"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 10:13:12"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-16 10:18:46"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 10:19:20"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 12:42:11"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 12:42:18"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 12:42:31"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-16 12:42:47"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 12:58:21"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 12:58:28"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 12:58:46"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 13:02:02"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 13:02:09"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 13:04:29"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 13:04:34"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 13:06:46"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 13:06:46"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 13:06:52"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 13:17:10"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 13:17:15"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 13:19:25"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 13:19:31"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 15:16:51"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 15:16:57"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-16 15:22:33"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-07-16 15:22:42"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 15:23:23"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-16 22:30:28"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-16 22:40:03"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-17 11:04:11"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-17 11:08:24"
+            },
+            {
+                "text": [
+                    "motivation"
+                ],
+                "timestamp": "2025-07-17 11:23:10"
+            },
+            {
+                "text": [
+                    "im feeling sad",
+                    "im feeling",
+                    "feeling sad",
+                    "feeling",
+                    "sad"
+                ],
+                "timestamp": "2025-07-17 11:23:19"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 11:40:42"
+            },
+            {
+                "text": [
+                    "feeling happy today",
+                    "happy today",
+                    "feeling happy",
+                    "happy",
+                    "feeling"
+                ],
+                "timestamp": "2025-07-17 11:40:56"
+            },
+            {
+                "text": [
+                    "feel like giving",
+                    "just feel",
+                    "just feel like",
+                    "like giving",
+                    "feel like"
+                ],
+                "timestamp": "2025-07-17 11:41:43"
+            },
+            {
+                "text": [
+                    "really sad today",
+                    "sad today",
+                    "really sad",
+                    "sad",
+                    "today"
+                ],
+                "timestamp": "2025-07-17 11:42:33"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 11:49:29"
+            },
+            {
+                "text": [
+                    "feeling sad today",
+                    "feeling sad",
+                    "sad today",
+                    "sad",
+                    "feeling"
+                ],
+                "timestamp": "2025-07-17 11:49:39"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 11:55:20"
+            },
+            {
+                "text": [
+                    "feeling sad",
+                    "sad",
+                    "feeling"
+                ],
+                "timestamp": "2025-07-17 11:55:33"
+            },
+            {
+                "text": [
+                    "feel amazing today",
+                    "feel amazing",
+                    "amazing today",
+                    "today",
+                    "feel"
+                ],
+                "timestamp": "2025-07-17 11:55:59"
+            },
+            {
+                "text": [
+                    "going great life",
+                    "great life",
+                    "going great",
+                    "life",
+                    "great"
+                ],
+                "timestamp": "2025-07-17 11:57:05"
+            },
+            {
+                "text": [
+                    "doing fine",
+                    "doing fine special",
+                    "fine special",
+                    "fine",
+                    "doing"
+                ],
+                "timestamp": "2025-07-17 11:57:19"
+            },
+            {
+                "text": [
+                    "feel like crying",
+                    "feel like",
+                    "like crying",
+                    "crying",
+                    "feel"
+                ],
+                "timestamp": "2025-07-17 11:57:36"
+            },
+            {
+                "text": [
+                    "feel worthless",
+                    "worthless",
+                    "feel"
+                ],
+                "timestamp": "2025-07-17 11:57:58"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 12:01:08"
+            },
+            {
+                "text": [
+                    "really good day",
+                    "good day",
+                    "day",
+                    "really good",
+                    "good"
+                ],
+                "timestamp": "2025-07-17 12:01:35"
+            },
+            {
+                "text": [
+                    "alright",
+                    "alright guess",
+                    "guess"
+                ],
+                "timestamp": "2025-07-17 12:01:56"
+            },
+            {
+                "text": [
+                    "anxious"
+                ],
+                "timestamp": "2025-07-17 12:02:17"
+            },
+            {
+                "text": [
+                    "going right",
+                    "going",
+                    "right"
+                ],
+                "timestamp": "2025-07-17 12:02:33"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 12:05:32"
+            },
+            {
+                "text": [
+                    "feeling really grateful",
+                    "really grateful today",
+                    "grateful today",
+                    "really grateful",
+                    "feeling really"
+                ],
+                "timestamp": "2025-07-17 12:05:56"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 12:08:32"
+            },
+            {
+                "text": [
+                    "super excited coming",
+                    "excited coming",
+                    "super excited",
+                    "excited",
+                    "coming"
+                ],
+                "timestamp": "2025-07-17 12:09:06"
+            },
+            {
+                "text": [
+                    "feeling average",
+                    "average",
+                    "feeling"
+                ],
+                "timestamp": "2025-07-17 12:09:22"
+            },
+            {
+                "text": [
+                    "anxious"
+                ],
+                "timestamp": "2025-07-17 12:09:47"
+            },
+            {
+                "text": [
+                    "anxious"
+                ],
+                "timestamp": "2025-07-17 12:11:28"
+            },
+            {
+                "text": [
+                    "feel really today",
+                    "really today",
+                    "feel really",
+                    "feel",
+                    "today"
+                ],
+                "timestamp": "2025-07-17 12:11:44"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 12:18:13"
+            },
+            {
+                "text": [
+                    "great day",
+                    "day",
+                    "great"
+                ],
+                "timestamp": "2025-07-17 12:19:06"
+            },
+            {
+                "text": [
+                    "today fine",
+                    "today",
+                    "fine"
+                ],
+                "timestamp": "2025-07-17 12:19:18"
+            },
+            {
+                "text": [
+                    "really stressed overwhelmed",
+                    "stressed overwhelmed",
+                    "overwhelmed",
+                    "really stressed",
+                    "stressed"
+                ],
+                "timestamp": "2025-07-17 12:19:36"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 12:24:39"
+            },
+            {
+                "text": [
+                    "working perfectly",
+                    "perfectly",
+                    "working"
+                ],
+                "timestamp": "2025-07-17 12:24:50"
+            },
+            {
+                "text": [
+                    "special",
+                    "special going",
+                    "going"
+                ],
+                "timestamp": "2025-07-17 12:25:02"
+            },
+            {
+                "text": [
+                    "really sad tired",
+                    "sad tired",
+                    "really sad",
+                    "tired",
+                    "sad"
+                ],
+                "timestamp": "2025-07-17 12:25:23"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-07-17 12:28:07"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-07-17 12:28:13"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-07-17 12:28:24"
+            },
+            {
+                "text": [
+                    "happy today",
+                    "happy",
+                    "today"
+                ],
+                "timestamp": "2025-07-17 12:28:58"
+            },
+            {
+                "text": [
+                    "special",
+                    "special going",
+                    "going"
+                ],
+                "timestamp": "2025-07-17 12:29:13"
+            },
+            {
+                "text": [
+                    "okay",
+                    "guess okay",
+                    "guess"
+                ],
+                "timestamp": "2025-07-17 12:29:29"
+            },
+            {
+                "text": [
+                    "handle anymore",
+                    "know handle anymore",
+                    "don know handle",
+                    "handle",
+                    "anymore"
+                ],
+                "timestamp": "2025-07-17 12:29:46"
+            },
+            {
+                "text": [
+                    "feel lost hopeless",
+                    "feel lost",
+                    "hopeless",
+                    "lost hopeless",
+                    "lost"
+                ],
+                "timestamp": "2025-07-17 12:30:00"
+            },
+            {
+                "text": [
+                    "honestly just thankful",
+                    "just thankful",
+                    "thankful",
+                    "honestly just",
+                    "honestly"
+                ],
+                "timestamp": "2025-07-17 12:31:27"
+            },
+            {
+                "text": [
+                    "feeling terrible today",
+                    "feeling terrible",
+                    "terrible today",
+                    "feeling",
+                    "terrible"
+                ],
+                "timestamp": "2025-07-17 12:31:47"
+            },
+            {
+                "text": [
+                    "life good",
+                    "life",
+                    "good"
+                ],
+                "timestamp": "2025-07-17 12:32:01"
+            },
+            {
+                "text": [
+                    "feeling great",
+                    "feeling",
+                    "great"
+                ],
+                "timestamp": "2025-07-17 12:35:17"
+            },
+            {
+                "text": [
+                    "feeling hopeless",
+                    "hopeless",
+                    "feeling"
+                ],
+                "timestamp": "2025-07-17 12:35:41"
+            },
+            {
+                "text": [
+                    "don know feel",
+                    "feel",
+                    "know feel",
+                    "don",
+                    "know"
+                ],
+                "timestamp": "2025-07-17 12:35:57"
+            },
+            {
+                "text": [
+                    "honestly just thankful",
+                    "just thankful",
+                    "thankful",
+                    "honestly just",
+                    "honestly"
+                ],
+                "timestamp": "2025-07-17 18:30:06"
+            },
+            {
+                "text": [
+                    "hello"
+                ],
+                "timestamp": "2025-08-06 09:36:27"
+            },
+            {
+                "text": [
+                    "feeling really sad",
+                    "really sad today",
+                    "sad today",
+                    "feeling really",
+                    "really sad"
+                ],
+                "timestamp": "2025-08-06 09:36:52"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 09:37:14"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 09:37:36"
+            },
+            {
+                "text": [
+                    "tips productive",
+                    "productive",
+                    "tips"
+                ],
+                "timestamp": "2025-08-06 09:38:07"
+            },
+            {
+                "text": [
+                    "careers",
+                    "careers suit",
+                    "suit"
+                ],
+                "timestamp": "2025-08-06 09:38:20"
+            },
+            {
+                "text": [
+                    "feeling grateful today",
+                    "feeling grateful",
+                    "grateful today",
+                    "feeling",
+                    "grateful"
+                ],
+                "timestamp": "2025-08-06 09:38:44"
+            },
+            {
+                "text": [
+                    "suggest activity",
+                    "activity",
+                    "suggest"
+                ],
+                "timestamp": "2025-08-06 09:39:02"
+            },
+            {
+                "text": [
+                    "yes"
+                ],
+                "timestamp": "2025-08-06 09:39:20"
+            },
+            {
+                "text": [
+                    "thanks advice",
+                    "advice",
+                    "thanks"
+                ],
+                "timestamp": "2025-08-06 09:39:45"
+            },
+            {
+                "text": [
+                    "goodbye"
+                ],
+                "timestamp": "2025-08-06 09:39:58"
+            },
+            {
+                "text": [
+                    "hii"
+                ],
+                "timestamp": "2025-08-06 09:54:05"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 09:54:23"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 09:54:45"
+            },
+            {
+                "text": [
+                    "hii"
+                ],
+                "timestamp": "2025-08-06 09:57:58"
+            },
+            {
+                "text": [
+                    "hii"
+                ],
+                "timestamp": "2025-08-06 09:58:09"
+            },
+            {
+                "text": [
+                    "hii"
+                ],
+                "timestamp": "2025-08-06 09:59:06"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 09:59:17"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 09:59:35"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 10:02:35"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 10:02:53"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 10:12:35"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 10:12:55"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 10:15:03"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 10:15:37"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-08-06 11:37:26"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 11:37:32"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 11:38:02"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 11:43:35"
+            },
+            {
+                "text": [
+                    "screen tim",
+                    "screen",
+                    "advice screen tim",
+                    "advice screen",
+                    "tim"
+                ],
+                "timestamp": "2025-08-06 11:43:54"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 11:54:19"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 11:57:16"
+            },
+            {
+                "text": [
+                    "want read book",
+                    "read book",
+                    "want read",
+                    "book",
+                    "read"
+                ],
+                "timestamp": "2025-08-06 11:57:25"
+            },
+            {
+                "text": [
+                    "new recipe",
+                    "try new recipe",
+                    "recipe",
+                    "want try new",
+                    "try new"
+                ],
+                "timestamp": "2025-08-06 11:57:32"
+            },
+            {
+                "text": [
+                    "let walk",
+                    "walk",
+                    "let"
+                ],
+                "timestamp": "2025-08-06 11:57:37"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-08-06 20:54:03"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-06 20:54:24"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-06 20:54:35"
+            },
+            {
+                "text": [
+                    "want read book",
+                    "read book",
+                    "want read",
+                    "book",
+                    "read"
+                ],
+                "timestamp": "2025-08-06 20:54:42"
+            },
+            {
+                "text": [
+                    "hi"
+                ],
+                "timestamp": "2025-08-07 12:25:54"
+            },
+            {
+                "text": [
+                    "analyze usage pattern",
+                    "usage pattern",
+                    "analyze usage",
+                    "pattern",
+                    "usage"
+                ],
+                "timestamp": "2025-08-07 12:26:08"
+            },
+            {
+                "text": [
+                    "phone usage",
+                    "phone",
+                    "usage"
+                ],
+                "timestamp": "2025-08-07 12:26:32"
+            },
+            {
+                "text": [
+                    "let walk",
+                    "walk",
+                    "let"
+                ],
+                "timestamp": "2025-08-07 12:26:44"
+            },
+            {
+                "text": [
+                    "want read book",
+                    "read book",
+                    "want read",
+                    "book",
+                    "read"
+                ],
+                "timestamp": "2025-08-07 12:27:03"
+            },
+            {
+                "text": [
+                    "help choose career",
+                    "choose career",
+                    "career",
+                    "help choose",
+                    "choose"
+                ],
+                "timestamp": "2025-08-07 12:27:26"
+            },
+            {
+                "text": [
+                    "use time better",
+                    "help use time",
+                    "use time",
+                    "time better",
+                    "time"
+                ],
+                "timestamp": "2025-08-07 12:27:50"
+            },
+            {
+                "text": [
+                    "inspiration"
+                ],
+                "timestamp": "2025-08-07 12:28:05"
+            },
+            {
+                "text": [
+                    "feeling stressed",
+                    "stressed",
+                    "feeling"
+                ],
+                "timestamp": "2025-08-07 12:28:23"
+            },
+            {
+                "text": [
+                    "feeling great",
+                    "feeling",
+                    "great"
+                ],
+                "timestamp": "2025-08-07 12:28:43"
+            },
+            {
+                "text": [
+                    "fine just bored",
+                    "just bored",
+                    "bored",
+                    "fine just",
+                    "fine"
+                ],
+                "timestamp": "2025-08-07 12:29:08"
+            },
+            {
+                "text": [
+                    "feeling stressed",
+                    "stressed",
+                    "feeling"
+                ],
+                "timestamp": "2025-08-07 12:35:36"
+            },
+            {
+                "text": [
+                    "fine just bored",
+                    "just bored",
+                    "bored",
+                    "fine just",
+                    "fine"
+                ],
+                "timestamp": "2025-08-07 12:35:55"
+            },
+            {
+                "text": [
+                    "feeling great actually",
+                    "feeling great",
+                    "feeling",
+                    "great actually",
+                    "great"
+                ],
+                "timestamp": "2025-08-07 12:36:17"
+            },
+            {
+                "text": [
+                    "inspiration"
+                ],
+                "timestamp": "2025-08-07 12:36:39"
+            },
+            {
+                "text": [
+                    "phone usage",
+                    "phone",
+                    "usage"
+                ],
+                "timestamp": "2025-08-07 12:37:13"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:16:33"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:17:31"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:22:07"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:25:14"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:26:16"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:28:31"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:36:08"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-08-07 19:39:46"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-08-07 19:40:07"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-08-07 19:40:25"
+            },
+            {
+                "text": [
+                    "feel sad",
+                    "feel",
+                    "sad"
+                ],
+                "timestamp": "2025-08-07 19:40:44"
+            },
+            {
+                "text": [
+                    "talk"
+                ],
+                "timestamp": "2025-08-07 19:40:59"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 07:51:41"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-09-06 07:51:59"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 07:56:53"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-09-06 07:57:00"
+            },
+            {
+                "text": [
+                    "new recipe",
+                    "try new recipe",
+                    "recipe",
+                    "want try new",
+                    "try new"
+                ],
+                "timestamp": "2025-09-06 07:57:21"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-09-06 07:57:30"
+            },
+            {
+                "text": [
+                    "career suggestion",
+                    "career",
+                    "suggestion"
+                ],
+                "timestamp": "2025-09-06 07:57:44"
+            },
+            {
+                "text": [
+                    "feeling hopeful future",
+                    "hopeful future",
+                    "feeling hopeful",
+                    "future",
+                    "hopeful"
+                ],
+                "timestamp": "2025-09-06 07:58:55"
+            },
+            {
+                "text": [
+                    "feel depressed overwhelmed",
+                    "depressed overwhelmed",
+                    "overwhelmed",
+                    "feel depressed",
+                    "depressed"
+                ],
+                "timestamp": "2025-09-06 07:59:16"
+            },
+            {
+                "text": [
+                    "feel",
+                    "sure feel",
+                    "sure"
+                ],
+                "timestamp": "2025-09-06 07:59:35"
+            },
+            {
+                "text": [
+                    "happy stressed",
+                    "stressed",
+                    "happy"
+                ],
+                "timestamp": "2025-09-06 07:59:58"
+            },
+            {
+                "text": [
+                    "feeling mixed emotions",
+                    "feeling mixed",
+                    "mixed emotions",
+                    "feeling",
+                    "emotions"
+                ],
+                "timestamp": "2025-09-06 08:00:28"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 13:06:09"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 13:13:10"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-09-06 13:13:23"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 13:15:39"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 13:17:21"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-09-06 13:17:55"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 14:17:35"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 14:18:08"
+            }
+        ],
+        "career_suggestions": [
+            "Software Engineer",
+            "Data Scientist",
+            "Entrepreneur",
+            "Marketing Strategist",
+            "Human Resource Manager"
+        ]
+    },
+    "jlohith87@gmai.com": {
+        "name": "Lohith J",
+        "password": "Lohith@123",
+        "screen_time_data": [],
+        "age": "20",
+        "phase": "Undergraduate College",
+        "interests": "Sports",
+        "achievements": "10 cgpa",
+        "hobbies": "editing",
+        "struggles": "coding\r\n"
+    },
+    "amanda@gmail.com": {
+        "name": "amanda",
+        "password": "123",
+        "screen_time_data": [],
+        "keywords": [
+            {
+                "text": [
+                    "python music",
+                    "music",
+                    "python"
+                ],
+                "source": "interests",
+                "timestamp": "2025-09-06T13:09:51.878349"
+            },
+            {
+                "text": [
+                    "interested graphic design",
+                    "design interested songwriting",
+                    "interested songwriting",
+                    "graphic design interested",
+                    "graphic design"
+                ],
+                "source": "achievements",
+                "timestamp": "2025-09-06T13:09:51.878349"
+            },
+            {
+                "text": [
+                    "generative ai music",
+                    "ai music",
+                    "passionate generative ai",
+                    "generative ai",
+                    "passionate generative"
+                ],
+                "source": "hobbies",
+                "timestamp": "2025-09-06T13:09:51.878349"
+            },
+            {
+                "text": [
+                    "__proactive_screen_time__"
+                ],
+                "timestamp": "2025-09-06 13:09:52"
+            },
+            {
+                "text": [
+                    "job suits interests",
+                    "job suits",
+                    "suits interests",
+                    "interests",
+                    "job"
+                ],
+                "timestamp": "2025-09-06 13:10:00"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "advice screen time",
+                    "screen",
+                    "advice screen",
+                    "time"
+                ],
+                "timestamp": "2025-09-06 13:11:10"
+            },
+            {
+                "text": [
+                    "want read book",
+                    "read book",
+                    "want read",
+                    "book",
+                    "read"
+                ],
+                "timestamp": "2025-09-06 13:11:19"
+            },
+            {
+                "text": [
+                    "feedback screen time",
+                    "screen time",
+                    "feedback screen",
+                    "screen",
+                    "feedback"
+                ],
+                "timestamp": "2025-09-06 13:11:30"
+            }
+        ],
+        "age": "19",
+        "phase": "Undergraduate College",
+        "interests": "python, music",
+        "achievements": "i am interested in graphic design, i am also interested in songwriting",
+        "hobbies": "i am passionate about generative ai, music",
+        "struggles": "nothing"
+    },
+    "janyamahesh62@gmail.com": {
+        "name": "Janya Mahesh",
+        "password": "jenny2005",
+        "screen_time_data": [],
+        "resume_versions": [],
+        "keywords": [
+            {
+                "text": [
+                    "ai engineering",
+                    "ai engineering music",
+                    "music agentic ai",
+                    "engineering music agentic",
+                    "ai"
+                ],
+                "source": "interests",
+                "timestamp": "2026-06-01T13:31:31.204228"
+            },
+            {
+                "text": [
+                    "stable job tech",
+                    "job tech field",
+                    "tech field work",
+                    "job tech",
+                    "tech field"
+                ],
+                "source": "achievements",
+                "timestamp": "2026-06-01T13:31:31.204228"
+            },
+            {
+                "text": [
+                    "sketching dancing theatre",
+                    "vocalist sketching dancing",
+                    "vocalist sketching",
+                    "dancing theatre",
+                    "guitar"
+                ],
+                "source": "hobbies",
+                "timestamp": "2026-06-01T13:31:31.204228"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "screen",
+                    "time"
+                ],
+                "timestamp": "2026-06-01 13:32:26"
+            },
+            {
+                "text": [
+                    "career advice",
+                    "career",
+                    "advice"
+                ],
+                "timestamp": "2026-06-01 13:32:41"
+            },
+            {
+                "text": [
+                    "hello"
+                ],
+                "timestamp": "2026-06-01 13:37:40"
+            },
+            {
+                "text": [
+                    "hello"
+                ],
+                "timestamp": "2026-06-01 13:38:08"
+            },
+            {
+                "text": [
+                    "motivate"
+                ],
+                "timestamp": "2026-06-01 13:38:57"
+            },
+            {
+                "text": [
+                    "screen time",
+                    "screen",
+                    "time"
+                ],
+                "timestamp": "2026-06-01 13:39:12"
+            },
+            {
+                "text": [
+                    "yes"
+                ],
+                "timestamp": "2026-06-01 13:39:22"
+            },
+            {
+                "text": [
+                    "procrastination"
+                ],
+                "timestamp": "2026-06-01 13:39:46"
+            }
+        ],
+        "age": "17",
+        "phase": "Undergraduate College",
+        "interests": "AI Engineering, Music, Agentic AI, Hands On, Creating Problem Statements to work on.",
+        "achievements": "I want a stable job in the tech field, work on cutting edge technology",
+        "hobbies": "Guitar, Vocalist, Sketching, Dancing, Theatre, Film",
+        "struggles": "I am a chronic procrastinator"
+    }
+}

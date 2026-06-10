@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Suggestions | Mentora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg-primary: #0a0a0f; --bg-card: rgba(20, 22, 32, 0.85);
+            --accent-blue: #4a7cf7; --accent-blue-light: #7b9cff; --accent-gold: #d4af37;
+            --text-primary: #e8e8ef; --text-secondary: #9ca3af; --border-color: #2a2d3a;
+        }
+        body { font-family: 'Inter', sans-serif; min-height: 100vh; background: var(--bg-primary); color: var(--text-primary); }
+        body::before {
+            content: ''; position: fixed; inset: 0;
+            background: radial-gradient(ellipse at 60% 40%, rgba(74,124,247,0.05) 0%, transparent 50%);
+            z-index: 0; pointer-events: none;
+        }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(25px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+
+        .navbar {
+            position: sticky; top: 0; z-index: 100;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 16px 40px; background: rgba(10,10,15,0.8);
+            backdrop-filter: blur(20px); border-bottom: 1px solid rgba(74,124,247,0.1);
+        }
+        .navbar .logo { display: flex; align-items: center; gap: 10px; }
+        .navbar .logo-icon { font-size: 24px; }
+        .navbar .logo-text { font-size: 20px; font-weight: 700; background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .nav-links { display: flex; gap: 28px; }
+        .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .page-content { max-width: 750px; margin: 0 auto; padding: 48px 20px 60px; position: relative; z-index: 1; }
+        .page-title { text-align: center; margin-bottom: 36px; animation: fadeInUp 0.7s ease-out; }
+        .page-title h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; }
+        .page-title .subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 6px; font-weight: 300; }
+
+        /* Career cards */
+        .career-grid { display: flex; flex-direction: column; gap: 16px; }
+        .career-card {
+            background: var(--bg-card); backdrop-filter: blur(16px);
+            border: 1px solid rgba(74,124,247,0.1); border-radius: 14px;
+            padding: 24px 28px;
+            display: flex; align-items: center; gap: 16px;
+            transition: all 0.4s cubic-bezier(0.175,0.885,0.32,1.275);
+            position: relative; overflow: hidden;
+        }
+        .career-card:hover {
+            transform: translateY(-4px) scale(1.01);
+            box-shadow: 0 12px 40px rgba(74,124,247,0.12);
+            border-color: rgba(74,124,247,0.3);
+        }
+        .career-card::after {
+            content: ''; position: absolute; inset: 0;
+            background: linear-gradient(135deg, transparent 40%, rgba(74,124,247,0.04) 50%, transparent 60%);
+            background-size: 200% 200%;
+            opacity: 0; transition: opacity 0.4s;
+        }
+        .career-card:hover::after { opacity: 1; animation: shimmer 2s ease-in-out; }
+
+        .career-icon { font-size: 28px; flex-shrink: 0; }
+        .career-name { font-size: 17px; font-weight: 600; color: var(--text-primary); }
+        .career-num {
+            font-size: 12px; font-weight: 600; color: var(--accent-blue);
+            background: rgba(74,124,247,0.1); padding: 4px 10px; border-radius: 8px;
+            margin-left: auto; flex-shrink: 0;
+        }
+
+        /* Staggered animations */
+        .career-card:nth-child(1) { animation: fadeInUp 0.6s ease-out 0.15s both; }
+        .career-card:nth-child(2) { animation: fadeInUp 0.6s ease-out 0.25s both; }
+        .career-card:nth-child(3) { animation: fadeInUp 0.6s ease-out 0.35s both; }
+        .career-card:nth-child(4) { animation: fadeInUp 0.6s ease-out 0.45s both; }
+        .career-card:nth-child(5) { animation: fadeInUp 0.6s ease-out 0.55s both; }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center; padding: 60px 20px;
+            animation: fadeInUp 0.7s ease-out 0.2s both;
+        }
+        .empty-state .empty-icon { font-size: 64px; margin-bottom: 16px; display: block; opacity: 0.5; }
+        .empty-state h2 { font-size: 22px; margin-bottom: 10px; font-weight: 600; }
+        .empty-state p { color: var(--text-secondary); font-size: 14px; margin-bottom: 28px; line-height: 1.5; }
+        .btn-cta {
+            display: inline-block; padding: 13px 32px; border-radius: 12px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
+            color: white; text-decoration: none; font-weight: 600; font-size: 14px;
+            transition: all 0.3s; box-shadow: 0 4px 20px rgba(74,124,247,0.3);
+        }
+        .btn-cta:hover { box-shadow: 0 6px 30px rgba(74,124,247,0.5); transform: translateY(-2px); }
+
+        @media (max-width: 600px) {
+            .navbar { padding: 14px 16px; }
+            .page-content { padding: 32px 16px; }
+            .career-card { padding: 18px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><span class="logo-icon">⚡</span><span class="logo-text">Mentora</span></div>
+        <div class="nav-links">
+            <a href="/dashboard/{{ email }}">Dashboard</a>
+            <a href="/resume/{{ email }}">Resume</a>
+            <a href="/analysis/{{ email }}">Analysis</a>
+        </div>
+    </nav>
+
+    <div class="page-content">
+        <div class="page-title">
+            <h1>🚀 Career Suggestions</h1>
+            <p class="subtitle">AI-powered paths tailored for {{ user.name or "you" }}</p>
+        </div>
+
+        {% set final_suggestions = user.get('career_suggestions') or suggestions %}
+
+        {% if final_suggestions and final_suggestions | length > 0 %}
+        <div class="career-grid">
+            {% for s in final_suggestions %}
+            <div class="career-card">
+                <span class="career-icon">🎯</span>
+                <span class="career-name">{{ s }}</span>
+                <span class="career-num">#{{ loop.index }}</span>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <span class="empty-icon">🔍</span>
+            <h2>No suggestions yet</h2>
+            <p>Chat with Mentora about your interests, skills, and goals — and we'll generate personalized career paths for you!</p>
+            <a href="/dashboard/{{ email }}" class="btn-cta" id="goToDashboard">Go to Dashboard →</a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

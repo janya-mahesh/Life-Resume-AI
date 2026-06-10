@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mentora Screen Time Tracker",
+  "version": "1.0",
+  "description": "Tracks your active tab usage and sends data to the Mentora app.",
+  "permissions": ["tabs", "activeTab", "storage"],
+  "host_permissions": ["http://localhost:5000/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

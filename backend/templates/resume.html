@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Resume | Mentora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg-primary: #0a0a0f; --bg-secondary: #12141c; --bg-card: rgba(20, 22, 32, 0.85);
+            --accent-blue: #4a7cf7; --accent-blue-light: #7b9cff; --accent-gold: #d4af37;
+            --text-primary: #e8e8ef; --text-secondary: #9ca3af; --border-color: #2a2d3a;
+        }
+        body { font-family: 'Inter', sans-serif; min-height: 100vh; background: var(--bg-primary); color: var(--text-primary); }
+        body::before {
+            content: ''; position: fixed; inset: 0;
+            background: radial-gradient(ellipse at 30% 20%, rgba(74,124,247,0.05) 0%, transparent 50%),
+                        radial-gradient(ellipse at 70% 80%, rgba(212,175,55,0.04) 0%, transparent 50%);
+            z-index: 0; pointer-events: none;
+        }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(25px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+
+        .navbar {
+            position: sticky; top: 0; z-index: 100;
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 16px 40px; background: rgba(10,10,15,0.8);
+            backdrop-filter: blur(20px); border-bottom: 1px solid rgba(74,124,247,0.1);
+        }
+        .navbar .logo { display: flex; align-items: center; gap: 10px; }
+        .navbar .logo-icon { font-size: 24px; }
+        .navbar .logo-text { font-size: 20px; font-weight: 700; background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .nav-links { display: flex; gap: 28px; }
+        .nav-links a { color: var(--text-secondary); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--text-primary); }
+
+        .page-content {
+            max-width: 700px; margin: 0 auto; padding: 48px 20px 60px;
+            position: relative; z-index: 1;
+        }
+        .page-title {
+            text-align: center; margin-bottom: 36px;
+            animation: fadeInUp 0.7s ease-out;
+        }
+        .page-title h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 6px; }
+        .page-title .subtitle { color: var(--text-secondary); font-size: 14px; font-weight: 300; }
+
+        .resume-card {
+            background: var(--bg-card); backdrop-filter: blur(16px);
+            border: 1px solid rgba(74,124,247,0.12); border-radius: 18px;
+            padding: 36px 32px; position: relative; overflow: hidden;
+            animation: fadeInUp 0.7s ease-out 0.15s both;
+        }
+        .resume-card::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-gold), var(--accent-blue));
+            background-size: 200% 100%; animation: shimmer 4s ease-in-out infinite;
+        }
+
+        .resume-field { margin-bottom: 22px; padding-bottom: 18px; border-bottom: 1px solid rgba(74,124,247,0.06); }
+        .resume-field:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .resume-field:nth-child(1) { animation: fadeInUp 0.6s ease-out 0.25s both; }
+        .resume-field:nth-child(2) { animation: fadeInUp 0.6s ease-out 0.3s both; }
+        .resume-field:nth-child(3) { animation: fadeInUp 0.6s ease-out 0.35s both; }
+        .resume-field:nth-child(4) { animation: fadeInUp 0.6s ease-out 0.4s both; }
+        .resume-field:nth-child(5) { animation: fadeInUp 0.6s ease-out 0.45s both; }
+        .resume-field:nth-child(6) { animation: fadeInUp 0.6s ease-out 0.5s both; }
+        .resume-field:nth-child(7) { animation: fadeInUp 0.6s ease-out 0.55s both; }
+        .resume-field:nth-child(8) { animation: fadeInUp 0.6s ease-out 0.6s both; }
+
+        .field-label {
+            font-size: 11px; font-weight: 600; text-transform: uppercase;
+            letter-spacing: 0.08em; color: var(--accent-gold); margin-bottom: 6px;
+        }
+        .field-value { font-size: 15px; color: var(--text-primary); line-height: 1.5; font-weight: 400; }
+        .field-value.empty { color: var(--text-secondary); font-style: italic; font-size: 13px; }
+
+        /* Career chips */
+        .career-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+        .career-chip {
+            display: inline-block; padding: 6px 14px; border-radius: 20px;
+            background: rgba(74,124,247,0.1); border: 1px solid rgba(74,124,247,0.25);
+            color: var(--accent-blue-light); font-size: 13px; font-weight: 500;
+        }
+
+        /* Version info */
+        .version-bar {
+            margin-top: 28px; padding: 18px 20px; border-radius: 12px;
+            background: rgba(212,175,55,0.06); border: 1px solid rgba(212,175,55,0.15);
+            display: flex; align-items: center; gap: 12px;
+            animation: fadeInUp 0.7s ease-out 0.65s both;
+        }
+        .version-bar .version-icon { font-size: 24px; }
+        .version-bar .version-info { flex: 1; }
+        .version-bar .version-count { font-size: 22px; font-weight: 700; color: var(--accent-gold); }
+        .version-bar .version-label { font-size: 12px; color: var(--text-secondary); }
+        .version-bar .version-note { font-size: 12px; color: var(--text-secondary); font-style: italic; }
+
+        /* Actions */
+        .actions {
+            display: flex; gap: 16px; justify-content: center; margin-top: 32px;
+            animation: fadeInUp 0.7s ease-out 0.7s both;
+        }
+        .actions a {
+            padding: 12px 28px; border-radius: 12px; text-decoration: none;
+            font-size: 14px; font-weight: 600; transition: all 0.3s;
+        }
+        .btn-edit {
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
+            color: white; box-shadow: 0 4px 16px rgba(74,124,247,0.3);
+        }
+        .btn-edit:hover { box-shadow: 0 6px 28px rgba(74,124,247,0.5); transform: translateY(-2px); }
+        .btn-back {
+            background: rgba(30,33,48,0.8); color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+        .btn-back:hover { color: var(--text-primary); border-color: rgba(74,124,247,0.3); }
+
+        @media (max-width: 600px) {
+            .navbar { padding: 14px 16px; }
+            .nav-links { gap: 14px; }
+            .page-content { padding: 32px 16px 48px; }
+            .resume-card { padding: 28px 20px; }
+            .actions { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><span class="logo-icon">⚡</span><span class="logo-text">Mentora</span></div>
+        <div class="nav-links">
+            <a href="/dashboard/{{ email }}">Dashboard</a>
+            <a href="/analysis/{{ email }}">Analysis</a>
+            <a href="/career-suggestions/{{ email }}">Career</a>
+            <a href="/chat-ui?email={{ email }}">Chat</a>
+        </div>
+    </nav>
+
+    <div class="page-content">
+        <div class="page-title">
+            <h1>📄 {{ user.name or "Your" }}'s Life Resume</h1>
+            <p class="subtitle">Auto-updated as you grow with Mentora</p>
+        </div>
+
+        <div class="resume-card">
+            <div class="resume-field">
+                <div class="field-label">👤 Name</div>
+                <div class="field-value">{{ user.name or "Not set" }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">🎂 Age</div>
+                <div class="field-value">{{ user.age or "Not set" }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">🎓 Life Phase</div>
+                <div class="field-value">{{ user.phase or "Not set" }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">💡 Interests</div>
+                <div class="field-value {% if not user.interests %}empty{% endif %}">{{ user.interests or "Tell Mentora about your interests to auto-fill this!" }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">🏆 Achievements & Goals</div>
+                <div class="field-value {% if not user.achievements %}empty{% endif %}">{{ user.achievements or "Share your wins with Mentora!" }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">🎨 Hobbies & Passions</div>
+                <div class="field-value {% if not user.hobbies %}empty{% endif %}">{{ user.hobbies or "What do you love doing?" }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">⚡ Struggles</div>
+                <div class="field-value {% if not user.struggles %}empty{% endif %}">{{ user.struggles or "Everyone has challenges — share yours." }}</div>
+            </div>
+            <div class="resume-field">
+                <div class="field-label">🎯 Career Suggestions</div>
+                {% if user.career_suggestions %}
+                <div class="career-chips">
+                    {% for s in user.career_suggestions %}
+                    <span class="career-chip">{{ s }}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="field-value empty">Chat with Mentora to get AI-powered career suggestions!</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="version-bar">
+            <span class="version-icon">🔄</span>
+            <div class="version-info">
+                <span class="version-count">{{ user.resume_versions | length if user.resume_versions else 0 }}</span>
+                <span class="version-label"> versions saved</span>
+            </div>
+            <span class="version-note">Auto-updates as you chat with Mentora</span>
+        </div>
+
+        <div class="actions">
+            <a href="/edit-resume/{{ email }}" class="btn-edit" id="editResumeBtn">✏️ Edit Resume</a>
+            <a href="/dashboard/{{ email }}" class="btn-back">← Dashboard</a>
+        </div>
+    </div>
+</body>
+</html>
