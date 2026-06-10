@@ -33,7 +33,7 @@ db = None
 if MONGODB_URI:
     from pymongo import MongoClient
     mongo_client = MongoClient(MONGODB_URI)
-    db = mongo_client.get_default_database() if "/" in MONGODB_URI.split("?")[0].split("//")[1] else mongo_client["mentora"]
+    db = mongo_client["mentora"]
     # Ensure index on email for fast lookups
     db.users.create_index("email", unique=True)
     print("[*] Connected to MongoDB Atlas")
