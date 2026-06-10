@@ -4,10 +4,6 @@ flask-cors
 python-dotenv
 requests
 pandas
-matplotlib
-keybert
-sentence-transformers
-scikit-learn
 pymongo[srv]
 dnspython
 gunicorn
