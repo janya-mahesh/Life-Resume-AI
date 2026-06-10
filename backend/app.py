@@ -1,6 +1,7 @@
-# app.py — Mentora Backend (Groq-powered)
+# app.py — Mentora Backend (Groq + MongoDB)
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, jsonify
+from flask_cors import CORS
 import json
 import os
 import re
@@ -9,11 +10,11 @@ from urllib.parse import urlparse
 from datetime import datetime
 from keyword_extractor import extract_keywords
 from dotenv import load_dotenv
-import copy
 
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)  # Allow Chrome extension from any origin
 
 # ─── Groq Client (Free Tier) ──────────────────────────────────────────────────
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
@@ -21,32 +22,80 @@ grok_client = None
 if GROQ_API_KEY:
     grok_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 
-USERS_FILE = os.path.join('data', 'users.json')
 CAREER_CSV = os.path.join('data', 'career_keywords_cleaned.csv')
 
-# ─── Utility Functions ────────────────────────────────────────────────────────
+# ─── MongoDB Setup ────────────────────────────────────────────────────────────
+MONGODB_URI = os.getenv("MONGODB_URI", "")
+db = None
 
-def load_users():
+if MONGODB_URI:
+    from pymongo import MongoClient
+    mongo_client = MongoClient(MONGODB_URI)
+    db = mongo_client.get_default_database() if "/" in MONGODB_URI.split("?")[0].split("//")[1] else mongo_client["mentora"]
+    # Ensure index on email for fast lookups
+    db.users.create_index("email", unique=True)
+    print("[*] Connected to MongoDB Atlas")
+else:
+    print("[!] No MONGODB_URI found - using local JSON fallback")
+
+# ─── Database Abstraction Layer ───────────────────────────────────────────────
+USERS_FILE = os.path.join('data', 'users.json')
+
+def get_user(email):
+    """Get a single user by email."""
+    if db is not None:
+        doc = db.users.find_one({"email": email})
+        if doc:
+            doc.pop("_id", None)
+            doc.pop("email", None)
+            return doc
+        return None
+    else:
+        users = _load_json_users()
+        return users.get(email)
+
+def save_user(email, user_data):
+    """Save/update a single user."""
+    if db is not None:
+        doc = {**user_data, "email": email}
+        db.users.update_one({"email": email}, {"$set": doc}, upsert=True)
+    else:
+        users = _load_json_users()
+        users[email] = user_data
+        _save_json_users(users)
+
+def user_exists(email):
+    """Check if a user exists."""
+    if db is not None:
+        return db.users.count_documents({"email": email}) > 0
+    else:
+        users = _load_json_users()
+        return email in users
+
+def _load_json_users():
+    """Fallback: load users from JSON file."""
     if not os.path.exists(USERS_FILE):
         return {}
     with open(USERS_FILE, 'r') as f:
         return json.load(f)
 
-def save_users(users):
+def _save_json_users(users):
+    """Fallback: save users to JSON file."""
     os.makedirs(os.path.dirname(USERS_FILE), exist_ok=True)
     with open(USERS_FILE, 'w') as f:
         json.dump(users, f, indent=4)
 
+
 def save_keywords_to_user(email, keywords):
-    users = load_users()
-    if email not in users:
+    user = get_user(email)
+    if not user:
         return
-    users[email].setdefault("keywords", [])
-    users[email]["keywords"].append({
+    user.setdefault("keywords", [])
+    user["keywords"].append({
         "text": keywords,
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     })
-    save_users(users)
+    save_user(email, user)
 
 def categorize_url(url):
     productive_sites = [
@@ -69,28 +118,28 @@ def extract_day(ts_ms):
 # ─── App Info for Screen Time Analysis ────────────────────────────────────────
 
 APP_INFO = {
-    'instagram.com': {'name': 'Instagram', 'type': 'leisure', 'prompt': "Instagram is fun, but don't forget to take breaks! 📸"},
-    'youtube.com': {'name': 'YouTube', 'type': 'leisure', 'prompt': "Watched anything interesting on YouTube lately? 📺"},
-    'stackoverflow.com': {'name': 'Stack Overflow', 'type': 'productive', 'prompt': "Learning something new on Stack Overflow? 🚀"},
-    'github.com': {'name': 'GitHub', 'type': 'productive', 'prompt': "Building something cool on GitHub? 💻"},
-    'wikipedia.org': {'name': 'Wikipedia', 'type': 'productive', 'prompt': "Exploring new knowledge on Wikipedia? 📚"},
-    'netflix.com': {'name': 'Netflix', 'type': 'leisure', 'prompt': "Binge-watching on Netflix? 🍿"},
-    'twitter.com': {'name': 'Twitter', 'type': 'leisure', 'prompt': "Catching up on trends on Twitter? 🐦"},
-    'coursera.org': {'name': 'Coursera', 'type': 'productive', 'prompt': "Taking a course on Coursera? 🎓"},
-    'facebook.com': {'name': 'Facebook', 'type': 'leisure', 'prompt': "Connecting with friends on Facebook? 👥"},
-    'tiktok.com': {'name': 'TikTok', 'type': 'leisure', 'prompt': "Scrolling through TikTok? Don't forget to take a break! 🎵"},
-    'whatsapp.com': {'name': 'WhatsApp', 'type': 'leisure', 'prompt': "Chatting on WhatsApp? Stay connected! 💬"},
-    'reddit.com': {'name': 'Reddit', 'type': 'leisure', 'prompt': "Browsing Reddit? Found any good threads? 👀"},
-    'snapchat.com': {'name': 'Snapchat', 'type': 'leisure', 'prompt': "Snapping on Snapchat? 📸"},
-    'edx.org': {'name': 'edX', 'type': 'productive', 'prompt': "Learning something new on edX? 🎓"},
-    'kaggle.com': {'name': 'Kaggle', 'type': 'productive', 'prompt': "Working on data science projects on Kaggle? 📊"},
-    'linkedin.com': {'name': 'LinkedIn', 'type': 'productive', 'prompt': "Networking on LinkedIn? 🤝"},
-    'gmail.com': {'name': 'Gmail', 'type': 'productive', 'prompt': "Catching up on emails? 📧"},
-    'outlook.com': {'name': 'Outlook', 'type': 'productive', 'prompt': "Checking your Outlook inbox? 📧"},
-    'amazon.com': {'name': 'Amazon', 'type': 'leisure', 'prompt': "Shopping on Amazon? 🛒"},
-    'flipkart.com': {'name': 'Flipkart', 'type': 'leisure', 'prompt': "Browsing deals on Flipkart? 🛍️"},
-    'medium.com': {'name': 'Medium', 'type': 'productive', 'prompt': "Reading articles on Medium? 📝"},
-    'zoom.us': {'name': 'Zoom', 'type': 'productive', 'prompt': "Attending meetings on Zoom? 🎥"},
+    'instagram.com': {'name': 'Instagram', 'type': 'leisure', 'prompt': "Instagram is fun, but don't forget to take breaks!"},
+    'youtube.com': {'name': 'YouTube', 'type': 'leisure', 'prompt': "Watched anything interesting on YouTube lately?"},
+    'stackoverflow.com': {'name': 'Stack Overflow', 'type': 'productive', 'prompt': "Learning something new on Stack Overflow?"},
+    'github.com': {'name': 'GitHub', 'type': 'productive', 'prompt': "Building something cool on GitHub?"},
+    'wikipedia.org': {'name': 'Wikipedia', 'type': 'productive', 'prompt': "Exploring new knowledge on Wikipedia?"},
+    'netflix.com': {'name': 'Netflix', 'type': 'leisure', 'prompt': "Binge-watching on Netflix?"},
+    'twitter.com': {'name': 'Twitter', 'type': 'leisure', 'prompt': "Catching up on trends on Twitter?"},
+    'coursera.org': {'name': 'Coursera', 'type': 'productive', 'prompt': "Taking a course on Coursera?"},
+    'facebook.com': {'name': 'Facebook', 'type': 'leisure', 'prompt': "Connecting with friends on Facebook?"},
+    'tiktok.com': {'name': 'TikTok', 'type': 'leisure', 'prompt': "Scrolling through TikTok? Don't forget to take a break!"},
+    'whatsapp.com': {'name': 'WhatsApp', 'type': 'leisure', 'prompt': "Chatting on WhatsApp? Stay connected!"},
+    'reddit.com': {'name': 'Reddit', 'type': 'leisure', 'prompt': "Browsing Reddit? Found any good threads?"},
+    'snapchat.com': {'name': 'Snapchat', 'type': 'leisure', 'prompt': "Snapping on Snapchat?"},
+    'edx.org': {'name': 'edX', 'type': 'productive', 'prompt': "Learning something new on edX?"},
+    'kaggle.com': {'name': 'Kaggle', 'type': 'productive', 'prompt': "Working on data science projects on Kaggle?"},
+    'linkedin.com': {'name': 'LinkedIn', 'type': 'productive', 'prompt': "Networking on LinkedIn?"},
+    'gmail.com': {'name': 'Gmail', 'type': 'productive', 'prompt': "Catching up on emails?"},
+    'outlook.com': {'name': 'Outlook', 'type': 'productive', 'prompt': "Checking your Outlook inbox?"},
+    'amazon.com': {'name': 'Amazon', 'type': 'leisure', 'prompt': "Shopping on Amazon?"},
+    'flipkart.com': {'name': 'Flipkart', 'type': 'leisure', 'prompt': "Browsing deals on Flipkart?"},
+    'medium.com': {'name': 'Medium', 'type': 'productive', 'prompt': "Reading articles on Medium?"},
+    'zoom.us': {'name': 'Zoom', 'type': 'productive', 'prompt': "Attending meetings on Zoom?"},
 }
 
 def get_app_info(url):
@@ -108,18 +157,17 @@ def get_app_info(url):
             return info
         if main_domain.endswith('.edu'):
             clean_name = main_domain.replace('.edu', '').title()
-            return {'name': clean_name, 'type': 'productive', 'prompt': "Learning something new? 🚀"}
+            return {'name': clean_name, 'type': 'productive', 'prompt': "Learning something new?"}
         clean_name = re.sub(r'\.(com|org|net|edu|io)$', '', main_domain).title()
         return {'name': clean_name, 'type': 'leisure', 'prompt': "Hope you're enjoying your time online!"}
     return {'name': 'Other', 'type': 'leisure', 'prompt': "Hope you're enjoying your time online!"}
 
 
-# ─── Grok Chat & Sentiment Analysis ──────────────────────────────────────────
+# ─── Groq Chat & Sentiment Analysis ──────────────────────────────────────────
 
 def get_user_context(email):
-    """Build a context string from user profile for Grok."""
-    users = load_users()
-    user = users.get(email, {})
+    """Build a context string from user profile for Groq."""
+    user = get_user(email)
     if not user:
         return "No user profile available."
     
@@ -146,14 +194,14 @@ def get_user_context(email):
 
 def get_screen_time_summary(email):
     """Generate screen time summary for the user."""
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email)
+    if not user:
+        return None
     screen_time_data = user.get('screen_time_data', [])
     
     if not screen_time_data:
         return None
     
-    # Find most recent day
     days = [extract_day(entry.get("timestamp")) for entry in screen_time_data if entry.get("timestamp")]
     days = [d for d in days if d]
     if not days:
@@ -162,7 +210,6 @@ def get_screen_time_summary(email):
     most_recent_day = max(days)
     today_data = [e for e in screen_time_data if extract_day(e.get("timestamp")) == most_recent_day]
     
-    # Aggregate by app
     app_usage = {}
     app_types = {}
     for entry in today_data:
@@ -189,7 +236,7 @@ def get_screen_time_summary(email):
 
 
 def chat_with_grok(message, email, is_proactive=False):
-    """Send message to Grok and get response with sentiment analysis."""
+    """Send message to Groq and get response with sentiment analysis."""
     if not grok_client:
         return [{
             "text": "API not configured. Please set your GROQ_API_KEY in the .env file. "
@@ -249,7 +296,7 @@ Only include this if genuinely new information is shared. Do NOT include it for 
             f"App breakdown: {screen_summary['app_breakdown']}"
         )
     elif is_proactive:
-        return [{"text": "I don't have enough screen time data yet. Start browsing and I'll track your habits! 📊"}]
+        return [{"text": "I don't have enough screen time data yet. Start browsing and I'll track your habits!"}]
     
     try:
         response = grok_client.chat.completions.create(
@@ -268,7 +315,6 @@ Only include this if genuinely new information is shared. Do NOT include it for 
         resume_update_match = re.findall(r'\[RESUME_UPDATE:\s*(\w+)=(.+?)\]', reply_text)
         if resume_update_match and email:
             process_auto_resume_update(email, resume_update_match)
-            # Remove the update tags from visible response
             reply_text = re.sub(r'\[RESUME_UPDATE:.*?\]', '', reply_text).strip()
         
         return [{"text": reply_text}]
@@ -276,19 +322,17 @@ Only include this if genuinely new information is shared. Do NOT include it for 
     except Exception as e:
         error_msg = str(e)
         if "401" in error_msg or "authentication" in error_msg.lower():
-            return [{"text": "⚠️ Invalid API key. Please check your XAI_API_KEY in the .env file."}]
+            return [{"text": "Invalid API key. Please check your GROQ_API_KEY."}]
         elif "429" in error_msg or "rate" in error_msg.lower():
-            return [{"text": "⏳ Rate limit reached. Please wait a moment and try again."}]
+            return [{"text": "Rate limit reached. Please wait a moment and try again."}]
         return [{"text": f"Sorry, I'm having trouble right now. Error: {error_msg}"}]
 
 
 def process_auto_resume_update(email, updates):
     """Auto-update user resume based on chat-extracted info and save a version."""
-    users = load_users()
-    if email not in users:
+    user = get_user(email)
+    if not user:
         return
-    
-    user = users[email]
     
     # Save current state as a version before updating
     version_snapshot = {
@@ -309,7 +353,6 @@ def process_auto_resume_update(email, updates):
         value = value.strip()
         if field in ["interests", "achievements", "hobbies", "struggles", "phase", "name"]:
             current = user.get(field, "")
-            # Append new info rather than overwrite (smarter merge)
             if current and value.lower() not in current.lower():
                 user[field] = f"{current}, {value}"
             elif not current:
@@ -317,13 +360,10 @@ def process_auto_resume_update(email, updates):
             changed = True
     
     if changed:
-        # Only save version if something actually changed
         user["resume_versions"].append(version_snapshot)
-        # Keep only last 20 versions
         if len(user["resume_versions"]) > 20:
             user["resume_versions"] = user["resume_versions"][-20:]
         
-        # Re-extract keywords from updated profile
         combined = " ".join([
             user.get("interests", ""),
             user.get("achievements", ""),
@@ -341,13 +381,12 @@ def process_auto_resume_update(email, updates):
             except Exception:
                 pass
         
-        # Auto-generate career suggestions based on updated profile
         try:
             update_career_suggestions(email, user)
         except Exception:
             pass
     
-    save_users(users)
+    save_user(email, user)
 
 
 def update_career_suggestions(email, user):
@@ -362,7 +401,6 @@ def update_career_suggestions(email, user):
         user.get("struggles", "")
     ]).lower()
     
-    # Simple keyword extraction
     words = re.sub(r'[^\w\s]', '', combined).split()
     stopwords = {"i", "the", "a", "an", "and", "to", "of", "in", "on", "for", "with", "is", "are", "my", "im", "just", "want", "not", "sure", "yet"}
     user_keywords = set(w for w in words if w not in stopwords and len(w) > 2)
@@ -390,10 +428,10 @@ def login():
     if request.method == 'POST':
         email = request.form.get('email', '').strip()
         password = request.form.get('password', '').strip()
-        users = load_users()
         
-        if email in users:
-            stored_password = users[email].get('password', '')
+        user = get_user(email)
+        if user:
+            stored_password = user.get('password', '')
             if stored_password and stored_password != password:
                 return render_template('login.html', error="Invalid password. Please try again.")
             return redirect(url_for('dashboard', email=email))
@@ -411,33 +449,30 @@ def register():
         if not email or not name or not password:
             return render_template('register.html', error="All fields are required.")
         
-        users = load_users()
-        if email in users:
+        if user_exists(email):
             return render_template('register.html', error="Account already exists. Please login.")
         
-        users[email] = {
+        save_user(email, {
             "name": name,
             "password": password,
             "screen_time_data": [],
             "resume_versions": [],
             "keywords": []
-        }
-        save_users(users)
+        })
         return redirect(url_for('onboarding', email=email))
     return render_template('register.html')
 
 @app.route('/onboarding/<email>', methods=['GET', 'POST'])
 def onboarding(email):
     if request.method == 'POST':
-        users = load_users()
-        if email not in users:
-            users[email] = {"screen_time_data": [], "resume_versions": [], "keywords": []}
+        user = get_user(email)
+        if not user:
+            user = {"screen_time_data": [], "resume_versions": [], "keywords": []}
         
         interests = request.form.get('interests', '')
         achievements = request.form.get('goals', '')
         hobbies = request.form.get('passion', '')
         
-        # Extract keywords
         try:
             interest_keywords = extract_keywords(interests) if interests else []
             achievement_keywords = extract_keywords(achievements) if achievements else []
@@ -445,65 +480,58 @@ def onboarding(email):
         except Exception:
             interest_keywords = achievement_keywords = hobby_keywords = []
         
-        users[email].setdefault("keywords", [])
-        users[email]["keywords"].extend([
+        user.setdefault("keywords", [])
+        user["keywords"].extend([
             {"text": interest_keywords, "source": "interests", "timestamp": datetime.now().isoformat()},
             {"text": achievement_keywords, "source": "achievements", "timestamp": datetime.now().isoformat()},
             {"text": hobby_keywords, "source": "hobbies", "timestamp": datetime.now().isoformat()}
         ])
         
-        users[email].update({
-            "name": request.form.get('name', users[email].get('name', '')),
+        user.update({
+            "name": request.form.get('name', user.get('name', '')),
             "age": request.form.get('age', ''),
             "phase": request.form.get('level', ''),
             "interests": interests,
             "achievements": achievements,
             "hobbies": hobbies,
             "struggles": request.form.get('challenges', ''),
-            "screen_time_data": users[email].get('screen_time_data', []),
-            "resume_versions": users[email].get('resume_versions', [])
+            "screen_time_data": user.get('screen_time_data', []),
+            "resume_versions": user.get('resume_versions', [])
         })
         
-        # Generate initial career suggestions
         try:
-            update_career_suggestions(email, users[email])
+            update_career_suggestions(email, user)
         except Exception:
             pass
         
-        save_users(users)
+        save_user(email, user)
         return redirect(url_for('dashboard', email=email))
     return render_template('questionnaire.html', email=email)
 
 @app.route('/dashboard/<email>')
 def dashboard(email):
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email) or {}
     motivations = [
-        "Stay hungry, stay foolish. — Steve Jobs",
+        "Stay hungry, stay foolish. -- Steve Jobs",
         "Every day is a second chance.",
-        "You've got this! 💪",
+        "You've got this!",
         "The only way to do great work is to love what you do.",
         "Progress, not perfection.",
         "Your future self will thank you for starting today.",
-        "Small steps lead to big changes. 🚀"
+        "Small steps lead to big changes."
     ]
     return render_template('dashboard.html', user=user, email=email, motivations=motivations)
 
 @app.route('/resume/<email>')
 def resume(email):
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email) or {}
     return render_template('resume.html', user=user, email=email)
 
 @app.route('/edit-resume/<email>', methods=['GET', 'POST'])
 def edit_resume(email):
-    users = load_users()
     if request.method == 'POST':
-        if email not in users:
-            users[email] = {}
+        user = get_user(email) or {}
         
-        # Save version before editing
-        user = users[email]
         version_snapshot = {
             "timestamp": datetime.now().isoformat(),
             "name": user.get("name", ""),
@@ -517,7 +545,7 @@ def edit_resume(email):
         user.setdefault("resume_versions", [])
         user["resume_versions"].append(version_snapshot)
         
-        users[email].update({
+        user.update({
             "name": request.form.get('name', ''),
             "age": request.form.get('age', ''),
             "phase": request.form.get('phase', ''),
@@ -527,20 +555,19 @@ def edit_resume(email):
             "struggles": request.form.get('struggles', '')
         })
         
-        # Re-generate career suggestions
         try:
-            update_career_suggestions(email, users[email])
+            update_career_suggestions(email, user)
         except Exception:
             pass
         
-        save_users(users)
+        save_user(email, user)
         return redirect(url_for('resume', email=email))
-    return render_template('edit_resume.html', user=users.get(email, {}), email=email)
+    user = get_user(email) or {}
+    return render_template('edit_resume.html', user=user, email=email)
 
 @app.route('/career-suggestions/<email>')
 def career_suggestions(email):
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email) or {}
     suggestions = user.get("career_suggestions", [])
     return render_template("career_suggestions.html", user=user, email=email, suggestions=suggestions)
 
@@ -553,18 +580,17 @@ def update_resume():
     if not email:
         return jsonify({"status": "error", "message": "Email required"}), 400
     
-    users = load_users()
-    if email not in users:
+    user = get_user(email)
+    if not user:
         return jsonify({"status": "error", "message": "User not found"}), 404
     
-    users[email]["career_suggestions"] = suggestions
-    save_users(users)
+    user["career_suggestions"] = suggestions
+    save_user(email, user)
     return jsonify({"status": "ok", "message": "Career suggestions updated"})
 
 @app.route('/analysis/<email>')
 def analysis(email):
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email) or {}
     screen_time_data = user.get('screen_time_data', [])
     
     if screen_time_data:
@@ -581,7 +607,6 @@ def analysis(email):
                     unique_days.add(day)
         
         num_days = max(len(unique_days), 1)
-        # Fixed: divide by 3600 to get hours (was dividing by 60 = minutes)
         avg_daily_screen_time = total_time / num_days / 3600
         avg_productive = productive_time / num_days / 3600
         avg_social_media = leisure_time / num_days / 3600
@@ -604,8 +629,8 @@ def screen_time_data_route():
     if not email:
         return jsonify({"status": "error", "error": "email required"}), 400
     
-    users = load_users()
-    if email in users:
+    user = get_user(email)
+    if user:
         new_entries = []
         for entry in usage_data:
             new_entries.append({
@@ -614,9 +639,9 @@ def screen_time_data_route():
                 "timestamp": entry.get('timestamp', int(datetime.now().timestamp() * 1000)),
                 "category": categorize_url(entry.get('url', ''))
             })
-        users[email].setdefault('screen_time_data', [])
-        users[email]['screen_time_data'].extend(new_entries)
-        save_users(users)
+        user.setdefault('screen_time_data', [])
+        user['screen_time_data'].extend(new_entries)
+        save_user(email, user)
     return jsonify({"status": "ok"})
 
 @app.route('/chat', methods=['POST'])
@@ -625,7 +650,6 @@ def chat():
     message = data.get("message", "")
     email = data.get("email", "")
     
-    # Extract keywords from user message
     if message and not message.startswith("__"):
         try:
             keywords = extract_keywords(message)
@@ -634,18 +658,15 @@ def chat():
         except Exception:
             pass
     
-    # Handle proactive screen time
     if message == "__proactive_screen_time__":
         return jsonify(chat_with_grok(message, email, is_proactive=True))
     
-    # Regular chat with Grok
     return jsonify(chat_with_grok(message, email))
 
 @app.route('/api/screen-feedback')
 def screen_feedback():
     email = request.args.get('email')
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email) or {}
     screen_time_data = user.get('screen_time_data', [])
     
     if not screen_time_data:
@@ -663,31 +684,30 @@ def screen_feedback():
     avg_leisure = leisure_time / num_days / 3600
     
     feedback = (
-        f"📱 Average screen time: {round(avg_daily, 1)} hours/day.\n"
-        f"💼 Productive: {round(avg_prod, 1)} hours/day.\n"
-        f"🎮 Leisure: {round(avg_leisure, 1)} hours/day.\n"
+        f"Average screen time: {round(avg_daily, 1)} hours/day.\n"
+        f"Productive: {round(avg_prod, 1)} hours/day.\n"
+        f"Leisure: {round(avg_leisure, 1)} hours/day.\n"
     )
     
     if avg_leisure > avg_prod:
-        feedback += "⏳ Try shifting more time towards learning or productivity apps!"
+        feedback += "Try shifting more time towards learning or productivity apps!"
     else:
-        feedback += "✅ Great balance! Keep it up."
+        feedback += "Great balance! Keep it up."
     
     return jsonify({"feedback": feedback})
 
 @app.route('/api/users')
 def get_user_data():
     email = request.args.get('email')
-    users = load_users()
-    if not email or email not in users:
+    user = get_user(email)
+    if not email or not user:
         return jsonify({})
-    return jsonify(users[email])
+    return jsonify(user)
 
 @app.route('/api/resume-versions/<email>')
 def get_resume_versions(email):
     """API endpoint to get resume version history."""
-    users = load_users()
-    user = users.get(email, {})
+    user = get_user(email) or {}
     versions = user.get("resume_versions", [])
     return jsonify({"versions": versions, "count": len(versions)})
 
@@ -697,6 +717,6 @@ def chat_ui():
 
 if __name__ == '__main__':
     print("[*] Starting Mentora Flask App...")
-    print("[*] Make sure XAI_API_KEY is set in your .env file")
+    print("[*] Make sure GROQ_API_KEY is set in your .env file")
     print("[*] Visit http://localhost:5000")
     app.run(debug=True)

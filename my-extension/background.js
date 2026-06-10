@@ -3,10 +3,13 @@ let activeStartTime = null;
 let lastUrl = "";
 let usageData = [];
 
-// Helper: get email from local storage
-function getUserEmail(callback) {
-  chrome.storage.local.get(["email"], (result) => {
-    callback(result.email || null);
+// Get server URL and email from storage
+function getConfig(callback) {
+  chrome.storage.local.get(["email", "serverUrl"], (result) => {
+    callback({
+      email: result.email || null,
+      serverUrl: result.serverUrl || "http://localhost:5000"
+    });
   });
 }
 
@@ -18,7 +21,7 @@ function saveUsageData() {
       tabId: activeTabId,
       timeSpent,
       url: lastUrl,
-      timestamp: Date.now()  // ✅ Required for daily analysis
+      timestamp: Date.now()
     });
     activeStartTime = Date.now();
   }
@@ -45,17 +48,17 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 setInterval(() => {
   saveUsageData();
   if (usageData.length > 0) {
-    getUserEmail((email) => {
-      if (email) {
-        fetch("http://localhost:5000/screen-time-data", {
+    getConfig((config) => {
+      if (config.email) {
+        fetch(`${config.serverUrl}/screen-time-data`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, usageData })
+          body: JSON.stringify({ email: config.email, usageData })
         })
           .then(() => usageData = [])
           .catch(err => console.error("Error sending data:", err));
       } else {
-        console.warn("⚠ No email saved in popup");
+        console.warn("No email saved in popup");
       }
     });
   }

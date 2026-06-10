@@ -1,5 +1,6 @@
 openai>=1.0.0
 flask
+flask-cors
 python-dotenv
 requests
 pandas
@@ -7,3 +8,6 @@ matplotlib
 keybert
 sentence-transformers
 scikit-learn
+pymongo[srv]
+dnspython
+gunicorn
