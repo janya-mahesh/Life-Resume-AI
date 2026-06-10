@@ -8,7 +8,7 @@ import re
 from openai import OpenAI
 from urllib.parse import urlparse
 from datetime import datetime
-from keyword_extractor import extract_keywords
+from keyword_extractor import extract_keywords 
 from dotenv import load_dotenv
 
 load_dotenv()
