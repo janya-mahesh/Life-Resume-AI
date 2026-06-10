@@ -307,7 +307,7 @@ Only include this if genuinely new information is shared. Do NOT include it for 
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": message}
             ],
-            max_tokens=500,
+            max_tokens=300,
             temperature=0.7
         )
         
@@ -648,22 +648,25 @@ def screen_time_data_route():
 
 @app.route('/chat', methods=['POST'])
 def chat():
-    data = request.json
-    message = data.get("message", "")
-    email = data.get("email", "")
-    
-    if message and not message.startswith("__"):
-        try:
-            keywords = extract_keywords(message)
-            if email and keywords:
-                save_keywords_to_user(email, keywords)
-        except Exception:
-            pass
-    
-    if message == "__proactive_screen_time__":
-        return jsonify(chat_with_grok(message, email, is_proactive=True))
-    
-    return jsonify(chat_with_grok(message, email))
+    try:
+        data = request.json
+        message = data.get("message", "")
+        email = data.get("email", "")
+        
+        if message and not message.startswith("__"):
+            try:
+                keywords = extract_keywords(message)
+                if email and keywords:
+                    save_keywords_to_user(email, keywords)
+            except Exception:
+                pass
+        
+        if message == "__proactive_screen_time__":
+            return jsonify(chat_with_grok(message, email, is_proactive=True))
+        
+        return jsonify(chat_with_grok(message, email))
+    except Exception as e:
+        return jsonify([{"text": f"Sorry, something went wrong. Please try again."}])
 
 @app.route('/api/screen-feedback')
 def screen_feedback():
