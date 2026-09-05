@@ -31,12 +31,17 @@ MONGODB_URI = os.getenv("MONGODB_URI", "")
 db = None
 
 if MONGODB_URI:
-    from pymongo import MongoClient
-    mongo_client = MongoClient(MONGODB_URI)
-    db = mongo_client["mentora"]
-    # Ensure index on email for fast lookups
-    db.users.create_index("email", unique=True)
-    print("[*] Connected to MongoDB Atlas")
+    try:
+        from pymongo import MongoClient
+        mongo_client = MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
+        db = mongo_client["mentora"]
+        # Test connection and ensure index
+        db.users.create_index("email", unique=True)
+        print("[*] Connected to MongoDB Atlas")
+    except Exception as e:
+        db = None
+        print(f"[!] MongoDB connection failed: {e}")
+        print("[!] Falling back to local JSON storage")
 else:
     print("[!] No MONGODB_URI found - using local JSON fallback")
 
@@ -302,7 +307,7 @@ Only include this if genuinely new information is shared. Do NOT include it for 
     
     try:
         response = grok_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": message}
