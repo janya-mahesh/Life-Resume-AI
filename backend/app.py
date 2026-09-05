@@ -307,7 +307,7 @@ Only include this if genuinely new information is shared. Do NOT include it for 
     
     try:
         response = grok_client.chat.completions.create(
-            model="meta-llama/llama-4-scout-17b-16e-instruct",
+            model="llama-3.1-8b-instant",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": message}
