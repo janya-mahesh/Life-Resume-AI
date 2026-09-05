@@ -8,7 +8,7 @@ function getConfig(callback) {
   chrome.storage.local.get(["email", "serverUrl"], (result) => {
     callback({
       email: result.email || null,
-      serverUrl: result.serverUrl || "http://localhost:5000"
+      serverUrl: result.serverUrl || "https://life-resume-ai.onrender.com"
     });
   });
 }

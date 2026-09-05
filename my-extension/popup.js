@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Save settings
 document.getElementById("saveBtn").addEventListener("click", () => {
   const email = document.getElementById("email").value.trim();
-  const serverUrl = document.getElementById("serverUrl").value.trim() || "http://localhost:5000";
+  const serverUrl = document.getElementById("serverUrl").value.trim() || "https://life-resume-ai.onrender.com";
 
   if (!email) {
     document.getElementById("status").textContent = "Please enter your email.";
